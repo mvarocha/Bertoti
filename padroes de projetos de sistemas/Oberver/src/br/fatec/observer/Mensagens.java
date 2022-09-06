@@ -1,12 +1,13 @@
+package br.fatec.observer;
 import java.util.ArrayList;
 
 
-public class Banco implements Subject{
+public class Mensagens implements Subject{
 	
 	private ArrayList observers;
-	private Cliente c;
+	private Contato c;
 	
-	public Banco(){
+	public Mensagens(){
 		observers = new ArrayList();
 	}
 	
@@ -21,20 +22,16 @@ public class Banco implements Subject{
 		}
 	}
 	
-	public void notifyObservers(double novoSaldo){
+	public void notifyObservers(String mensagem){
 		for (int i = 0; i < observers.size(); i++) {
 			Observer observer = (Observer)observers.get(i);
-			observer.update(novoSaldo);
+			observer.enviarMensagem(mensagem);
 		}
 	}
 	
-	public double sacar(Cliente c, double valor){
-		
-		c.saldo = c.saldo - valor;
-		
-		notifyObservers(c.saldo);
-		return c.saldo;
-		
+	public String enviarMensagem(Contato c, String n){
+		notifyObservers(c.numero);
+		return n;
 	}
 
 }
