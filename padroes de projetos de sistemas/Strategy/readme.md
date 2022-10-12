@@ -1,2 +1,2 @@
-## Diagrama de classes Strategy
+# Strategy UML
 <img src="../img/Strategy.png" />
