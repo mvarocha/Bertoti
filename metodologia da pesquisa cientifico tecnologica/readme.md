@@ -38,7 +38,7 @@ O objetivo do projeto era realizar a criação de um e-commerce para venda de ma
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
-<img src="./images/P1_I1.jpg">
+<img src="[./images/P1_I1.jpg](https://raw.githubusercontent.com/mvarocha/Bertoti/main/metodologia%20da%20pesquisa%20cientifico%20tecnologica/images/P1_I1.jpg)">
 <figcaption style="font-size: smaller;">Homepage</p>
 <img src="./images/P1_I2.jpg">
 <figcaption style="font-size: smaller;">Parte inferior da homepage - Conteúdos e rodapé</p>
