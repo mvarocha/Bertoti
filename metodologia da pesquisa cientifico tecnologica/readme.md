@@ -28,9 +28,9 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 ---
 ---
 
-<h2 id="projeto1" style="text-align: center;"><b><a href="https://github.com/RoyaltyDev/Projeto_integrador_2020-2" target="_blank" style="color: inherit; cursor:pointer;">Projeto 1: E-commerce</a> 🔗</b></h2>
+<h2 id="projeto1" align="center"><b><a href="https://github.com/RoyaltyDev/Projeto_integrador_2020-2" target="_blank" style="color: inherit; cursor:pointer;">Projeto 1: E-commerce</a> 🔗</b></h2>
 
-<p style="text-align: center;">Projeto Integrador - 1° Semestre | Fatec Prof. Jessen Vidal - 2020 | Cliente interno: Profº Antônio Egydio São Thiago Graça</p>
+<p align="center">Projeto Integrador - 1° Semestre | Fatec Prof. Jessen Vidal - 2020 | Cliente interno: Profº Antônio Egydio São Thiago Graça</p>
 
 <h3><b> Visão do Projeto </b></h3>
 
@@ -91,9 +91,9 @@ O Bootstrap foi o principal framework utilizado por mim durante o trabalho no pr
 
 ---
 
-<h2 id="projeto2" style="text-align: center;"><b><a href="https://github.com/Time-1-ADS/ProjetoGSW" style="color: inherit; cursor: pointer;">Projeto 2: Dashboard</a> 🔗</b></h2>
+<h2 id="projeto2" align="center"><b><a href="https://github.com/Time-1-ADS/ProjetoGSW" style="color: inherit; cursor: pointer;">Projeto 2: Dashboard</a> 🔗</b></h2>
 
-<p style="text-align: center;">Projeto Integrador - 2° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: GSW</p>
+<p align="center">Projeto Integrador - 2° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: GSW</p>
 
 <h3><b> Visão do Projeto </b></h3>
 
