@@ -18,17 +18,17 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 ---
 
 <h2>Sumário</h2>
-<h3><a href="#teste"><b>Projeto 1: E-commerce</b></a></h3>
-<h3><a href="#Projeto2"><b>Projeto 2: Dashboard</b></a></h3>
-<h3><a href="#Projeto3"><b>Projeto 3: CRM</b></a></h3>
-<h3><a href="#Projeto4"><b>Projeto 4: </b></a></h3>
-<h3><a href="#Projeto5"><b>Projeto 5: Data Transfer</b></a></h3>
-<h3><a href="#Projeto6"><b>Projeto 6: </b></a></h3>
+<h3><a href="#user-content-projeto1"><b>Projeto 1: E-commerce</b></a></h3>
+<h3><a href="#user-content-projeto2"><b>Projeto 2: Dashboard</b></a></h3>
+<h3><a href="#user-content-p3"><b>Projeto 3: CRM</b></a></h3>
+<h3><a href="#user-content-p4"><b>Projeto 4: </b></a></h3>
+<h3><a href="#user-content-p5"><b>Projeto 5: Data Transfer</b></a></h3>
+<h3><a href="#user-content-p6"><b>Projeto 6: </b></a></h3>
 
 ---
 ---
 
-<h2 id="P1" style="text-align: center;"><b><a href="https://github.com/RoyaltyDev/Projeto_integrador_2020-2" target="_blank" style="color: inherit; cursor:pointer;">Projeto 1: E-commerce</a> 🔗</b></h2>
+<h2 id="projeto2" style="text-align: center;"><b><a href="https://github.com/RoyaltyDev/Projeto_integrador_2020-2" target="_blank" style="color: inherit; cursor:pointer;">Projeto 1: E-commerce</a> 🔗</b></h2>
 
 <p style="text-align: center;">Projeto Integrador - 1° Semestre | Fatec Prof. Jessen Vidal - 2020 | Cliente interno: Profº Antônio Egydio São Thiago Graça</p>
 
@@ -91,7 +91,7 @@ O Bootstrap foi o principal framework utilizado por mim durante o trabalho no pr
 
 ---
 
-<h2 id="Projeto2" style="text-align: center;"><b><a href="https://github.com/Time-1-ADS/ProjetoGSW" style="color: inherit; cursor: pointer;">Projeto 2: Dashboard</a> 🔗</b></h2>
+<h2 id="projeto2" style="text-align: center;"><b><a href="https://github.com/Time-1-ADS/ProjetoGSW" style="color: inherit; cursor: pointer;">Projeto 2: Dashboard</a> 🔗</b></h2>
 
 <p style="text-align: center;">Projeto Integrador - 2° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: GSW</p>
 
