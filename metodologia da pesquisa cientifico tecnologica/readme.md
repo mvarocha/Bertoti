@@ -28,7 +28,7 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 ---
 ---
 
-<h2 id="projeto2" style="text-align: center;"><b><a href="https://github.com/RoyaltyDev/Projeto_integrador_2020-2" target="_blank" style="color: inherit; cursor:pointer;">Projeto 1: E-commerce</a> 🔗</b></h2>
+<h2 id="projeto1" style="text-align: center;"><b><a href="https://github.com/RoyaltyDev/Projeto_integrador_2020-2" target="_blank" style="color: inherit; cursor:pointer;">Projeto 1: E-commerce</a> 🔗</b></h2>
 
 <p style="text-align: center;">Projeto Integrador - 1° Semestre | Fatec Prof. Jessen Vidal - 2020 | Cliente interno: Profº Antônio Egydio São Thiago Graça</p>
 
