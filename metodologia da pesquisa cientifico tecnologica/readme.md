@@ -18,7 +18,7 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 ---
 
 <h2>Sumário</h2>
-<h3><a href="#user-content-projeto1"><b>Projeto 1: E-commerce</b></a></h3>
+<a href="#user-content-projeto1"><h3><b>Projeto 1: E-commerce</b></h3></a>
 <h3><a href="#user-content-projeto2"><b>Projeto 2: Dashboard</b></a></h3>
 <h3><a href="#user-content-p3"><b>Projeto 3: CRM</b></a></h3>
 <h3><a href="#user-content-p4"><b>Projeto 4: </b></a></h3>
