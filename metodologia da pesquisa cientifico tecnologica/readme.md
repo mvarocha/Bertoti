@@ -192,3 +192,55 @@ Nesse segundo projeto consegui estar em mais contato não só com front-end, mas
 
 
 ---
+
+<h2 id="projeto4" align="center"><b><a href="https://github.com/Time-1-ADS/PROJETO-NESS" style="color: inherit; cursor: pointer;">Projeto 3: CRM</a> 🔗</b></h2>
+
+<p align="center">Projeto Integrador - 4° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: Subiter</p>
+
+<h3><b> Visão do Projeto </b></h3>
+
+Para esse projeto, foi proposto que fizéssemos um sistema no qual o usuário pudesse abrir chamados para a empresa, de acordo com a disponibilidade dos funcionários e dos equipamentos.
+
+<details>
+<summary>IMAGENS DO SISTEMA</summary>
+<img src="./images/P3_I2.jpg">
+<figcaption style="font-size: smaller;">Homepage</p>
+<img src="./images/P3_I1.jpg">
+<figcaption style="font-size: smaller;">Tela de contatos</p>
+<img src="./images/P3_I3.png">
+<figcaption style="font-size: smaller;">Tela de dashboard</p>
+</details>
+
+<h3><b> Tecnologias utilizadas </b></h3>
+
+- Python
+- Flask
+- Figma
+- HTML
+- CSS
+- Javascript
+- Vue JS
+- Sass
+
+<h3><b> Vue JS </b></h3>
+
+Principal tecnologia focada na parte do front-end ao longo da realização desse projeto, Vue JS é um framework que auxilia e facilita a criação de sistemas do tipo SPA (Single Page Application), contando também com uma extensa biblioteca gratúita de elementos criados pela comunidade que o utiliza, e que também acaba agilizando o processo de desenvolvimento do sistema.
+
+<h3><b> Contribuições pessoais </b></h3>
+
+Durante esse semestre, me voluntariei a trabalhar no papel de Scrum Master, organizando as demandas do time e buscando resolver possíveis dificuldades enfrentadas por cada um, além de também atuar como desenvolvedor front-end, que se fez necessário devido o número reduzido de integrantes.
+
+<h3><b> Aprendizados Efetivos </b></h3>
+
+Já tendo um conhecimento bem maior sobre o desenvolvimento do front-end "puro", sem uso de bibliotecas ou frameworks, utilizar o Vue JS no início foi um pouco complexo, mas ao entender a sintaxe facilitou muito o trabalho, permitindo que me desenvolvesse nos seguintes pontos:
+
+- <h3>Adaptação</h3>
+    Utilizar uma tecnologia nova como o Vue JS foi complexo no começo, pois em muitos momentos eu tentava utilizar a sintaxe do Java Script Vanilla de forma automática. Precisei aos poucos adaptar meu modo de pensar e de estruturar os códigos, e ao final consegui um bom resultado e um aprendizado muito grande com o framework, que funcionou muito bem para a proposta da nossa aplicação
+
+- <h3>Organização</h3>
+    Por estar no cargo de scrum master e de desenvolvedor, precisei organizar melhor tanto minhas atividades quanto a do resto da equipe, o que foi um desafio muito grande mas que consegui superar ao longo das sprints.
+
+- <h3>Frameworks</h3>
+    Por ser a primeira vez em que tive contato com um framework front-end, foi bem complexo me adaptar ao modo de criação com a nova tecnologia. Mas consegui entender bem o propósito e como deveria utilizá-lo, aplicando também algumas boas práticas à estrutura do sistema.
+
+---
