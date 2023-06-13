@@ -21,7 +21,7 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 <h3><a href="#user-content-projeto1"><b>Projeto 1: E-commerce</b></a></h3>
 <h3><a href="#user-content-projeto2"><b>Projeto 2: Dashboard</b></a></h3>
 <h3><a href="#user-content-projeto3"><b>Projeto 3: CRM</b></a></h3>
-<h3><a href="#user-content-p4"><b>Projeto 4: ERP</b></a></h3>
+<h3><a href="#user-content-projeto4"><b>Projeto 4: ERP</b></a></h3>
 <h3><a href="#user-content-p5"><b>Projeto 5: Data Transfer</b></a></h3>
 <h3><a href="#user-content-p6"><b>Projeto 6: </b></a></h3>
 
@@ -193,7 +193,7 @@ Nesse segundo projeto consegui estar em mais contato não só com front-end, mas
 
 ---
 
-<h2 id="projeto4" align="center"><b><a href="https://github.com/PhatomFatec/API_SUBITER" style="color: inherit; cursor: pointer;">Projeto 4: Subiter</a> 🔗</b></h2>
+<h2 id="projeto4" align="center"><b><a href="https://github.com/PhatomFatec/API_SUBITER" style="color: inherit; cursor: pointer;">Projeto 4: ERP</a> 🔗</b></h2>
 
 <p align="center">Projeto Integrador - 4° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: Subiter</p>
 
