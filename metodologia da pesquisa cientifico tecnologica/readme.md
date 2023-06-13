@@ -70,16 +70,16 @@ Iniciei o projeto focado na parte do front-end, onde participei ativamente na el
 
 Durante o trabalho nesse projeto, pude me desenvolver em algumas áreas na qual nunca havia tido contato anteriormente:
 
-    <h3>Metodologia Ágil</h3>
+- <h3>Metodologia Ágil</h3>
     O início do trabalho com o método Scrum facilitou a organização e desenvolvimento do projeto. Através dele, foi mais fácil compreender quais eram os requisitos e traçar o plano de como iríamos entregá-los
 
-    <h3>Linguagem de Marcação</h3>
+- <h3>Linguagem de Marcação</h3>
     Logo no início do projeto tive meu primeiro contato com o HTML, e compreendi que haviam outros tipos de linguagem, além das de programação. Utilizando-o para estruturar nossas páginas, busquei saber mais sobre como a linguagem funcionava, como deveria ser estruturada, o que era indispensável e quais tags deveria utilizar para cada coisa.
 
-    <h3>Linguagem de Estilização</h3>
+- <h3>Linguagem de Estilização</h3>
     Em conjunto com o HTML, busquei conhecimento também sobre o CSS, utilizado para dar vida ao sistema e comodidade ao usuário. Entendi que um sistema limpo dá mais conforto ao usuário e o mantém por mais tempo utilizando nosso sistema
 
-    <h3>Frameworks</h3>
+- <h3>Frameworks</h3>
     O Bootstrap foi o principal framework utilizado por mim durante o trabalho no projeto. Por não ter nenhum conhecimento prévio de como criar uma página web, o Bootstrap serviu de grande auxílio por possuir designs prontos, que são facilmente acessados por meio de classes no HTML.
 
 ---
@@ -128,13 +128,13 @@ Ao longo do projeto auxiliei tanto os desenvolvedores da parte do front-end quan
 
 Nesse segundo projeto consegui estar em mais contato não só com front-end, mas também com o backend, o que me possibilitou me desenvolver nos seguintes quesitos:
 
-    <h3>Trabalho em equipe</h3>
+- <h3>Trabalho em equipe</h3>
     Atuando nas duas frentes do projeto, sendo o front-end e o back-end, acabei desenvolvendo melhor minha forma de trabalhar em equipe. Ao fornecer auxílio, precisei aprimorar meu lado empático e procurar entender as dificuldades de cada um, para que pudesse ajudar da melhor forma e assim conseguirmos finalizar as tarefas dentro do prazo estipulado
 
-    <h3>Gestão de tempo</h3>
+- <h3>Gestão de tempo</h3>
     Além de prestar auxílio aos meus colegas também possuia minhas próprias tasks, o que me forçou de modo positivo a gerir melhor meu tempo. Separava horários específicos em que estaria livre para ajudar e que estaria focado no que eu havia me comprometido em entregar.
 
-    <h3>Bibliotecas</h3>
+- <h3>Bibliotecas</h3>
     O uso de bibliotecas foi algo novo para mim nesse semestre. Esse tipo de tecnologia ajuda muito pois não precisamos criar tudo do zero. Para cada objetivo existem diversas bibliotecas, as quais precisamos apenas importá-las e seguir a documentação de como usá-las.
     A biblioteca utilizada foi o Charts JS para composição dos gráficos interativos, e que eram o foco do nosso projeto.
 
@@ -180,13 +180,13 @@ Nesse projeto busquei entender mais a fundo as tecnologias utilizadas no front-e
 
 Nesse segundo projeto consegui estar em mais contato não só com front-end, mas também com o backend, o que me possibilitou me desenvolver nos seguintes quesitos:
 
-    <h3>Trabalho em equipe</h3>
+- <h3>Trabalho em equipe</h3>
     Atuando nas duas frentes do projeto, sendo o front-end e o back-end, acabei desenvolvendo melhor minha forma de trabalhar em equipe. Ao fornecer auxílio, precisei aprimorar meu lado empático e procurar entender as dificuldades de cada um, para que pudesse ajudar da melhor forma e assim conseguirmos finalizar as tarefas dentro do prazo estipulado
 
-    <h3>Gestão de tempo</h3>
+- <h3>Gestão de tempo</h3>
     Além de prestar auxílio aos meus colegas também possuia minhas próprias tasks, o que me forçou de modo positivo a gerir melhor meu tempo. Separava horários específicos em que estaria livre para ajudar e que estaria focado no que eu havia me comprometido em entregar.
 
-    <h3>Bibliotecas</h3>
+- <h3>Bibliotecas</h3>
     O uso de bibliotecas foi algo novo para mim nesse semestre. Esse tipo de tecnologia ajuda muito pois não precisamos criar tudo do zero. Para cada objetivo existem diversas bibliotecas, as quais precisamos apenas importá-las e seguir a documentação de como usá-las.
     A biblioteca utilizada foi o Charts JS para composição dos gráficos interativos, e que eram o foco do nosso projeto.
 
