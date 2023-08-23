@@ -1,7 +1,7 @@
 <h1>Marcus Vinícius Augusto Rocha</h1>
 <h2> Introdução </h2>
 
-Olá! Eu sou o Marcus Vinícius, e seja bem-vindo ao meu portifólio!
+Olá! Eu sou o Marcus Vinícius, e seja bem-vindo ao meu portfólio!
 
 <img width="200" src="https://avatars.githubusercontent.com/u/71012953?v=4">
 
