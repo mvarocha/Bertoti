@@ -1,10 +1,10 @@
 <h1>Marcus Vinícius Augusto Rocha</h1>
 <h2> Introdução </h2>
 
-Olá! Eu sou o Marcus Vinícius, e seja bem-vindo ao meu portfólio!
-
 <img width="200" src="https://avatars.githubusercontent.com/u/71012953?v=4">
 
+Olá! Sou o Marcus, nasci em Caçapava e tenho 22 anos. Estudei meus dois últimos anos do ensino médio na escola SESI 207, de Caçapava, o que me possibilitou aos 18 anos iniciar o curso técnico de mecânica no SENAI de Taubaté-SP. Ainda sem muita noção de qual área queria seguir, pretendia fazer uma faculdade de engenharia mecânica para complementar meus conhecimentos adquiridos no ensino técnico. Durante o curso, aprendi várias coisas, dentre as quais, desenho técnico foi minha matéria favorita, mas não me sentia bem com a ideia de ver tudo aquilo mais a fundo na faculdade. Ao final dos dois anos de curso, não iniciei imediatamente na faculdade, então fiquei 6 meses parado, sem estudar ou trabalhar. Foi então que em Julho de 2020 um amigo me mandou mensagem falando que havia uma faculdade com processo seletivo aberto e que a classificação aconteceria através do histórico escolar. Tratava-se da FATEC. Dei uma pesquisada sobre os cursos disponíveis, fiz minha inscrição e acabei passando para o curso que havia escolhido, Análise e Desenvolvimento de Sistemas. Logo no início dos estudos me identifiquei muito com o curso, não tinha conhecimento prévio nenhum sobre a área e tudo o que aprendia parecia super interessante. Com o início do API (Aprendizagem por Projeto Integrador), montamos os grupos, e o integrante com mais conhecimento nos dividiu entre desenvolvedores backend e frontend. Acabei ficando com a área de frontend, onde também me identifiquei muito e decidi seguir na função nos semestres seguintes para melhorar cada vez mais minhas habilidades e meus conhecimentos. Graças a isso, consegui meu primeiro emprego na maior empresa de saúde do mundo, a Johnson & Johnson, onde já pude atuar como desenvolvedor frontend em vários sites das marcas, como Listerine, Neostrata, Neutrogena, Tylenol, Johnson’s Baby, entre outros, e atualmente atuo como desenvolvedor full-stack no Janssen Pro, uma plataforma criada para os profissionais da área da saúde.
+Fora do ambiente estudantil e profissional, meus interesses são mais voltados para músicas, filmes e séries. Sou bem caseiro, mas gosto de sair pra tomar um café, ou comer algo com os amigos.
 
 <h3> Principais Conhecimentos </h3>
 
@@ -21,7 +21,7 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 <h3><a href="#user-content-projeto1"><b>Projeto 1: E-commerce</b></a></h3>
 <h3><a href="#user-content-projeto2"><b>Projeto 2: Dashboard</b></a></h3>
 <h3><a href="#user-content-projeto3"><b>Projeto 3: CRM</b></a></h3>
-<h3><a href="#user-content-projeto4"><b>Projeto 4: ERP</b></a></h3>
+<h3><a href="#user-content-p4"><b>Projeto 4: ERP</b></a></h3>
 <h3><a href="#user-content-p5"><b>Projeto 5: Data Transfer</b></a></h3>
 <h3><a href="#user-content-p6"><b>Projeto 6: </b></a></h3>
 
@@ -193,7 +193,7 @@ Nesse segundo projeto consegui estar em mais contato não só com front-end, mas
 
 ---
 
-<h2 id="projeto4" align="center"><b><a href="https://github.com/PhatomFatec/API_SUBITER" style="color: inherit; cursor: pointer;">Projeto 4: ERP</a> 🔗</b></h2>
+<h2 id="projeto4" align="center"><b><a href="https://github.com/PhatomFatec/API_SUBITER" style="color: inherit; cursor: pointer;">Projeto 4: Subiter</a> 🔗</b></h2>
 
 <p align="center">Projeto Integrador - 4° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: Subiter</p>
 
