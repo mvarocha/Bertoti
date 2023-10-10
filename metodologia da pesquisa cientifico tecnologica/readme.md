@@ -55,16 +55,30 @@ O objetivo do projeto era realizar a criação de um e-commerce para venda de ma
 - CSS
 - Bootstrap
 
-<h3><b> Python </b></h3>
+<h3><b> Python e Django </b></h3>
 
 Sendo a primeira linguagem de programação a qual tive contato, Python é uma linguagem super versátil e descomplicada. Utilizamos o framework Django para compor as páginas do nosso projeto e realizar a integração do back-end com o front-end. Através do uso dessa tecnologia, foi mais fácil configurar as funções e as mudanças de páginas
 
+<h3><b> Figma </b></h3>
+
+Figma é uma ferramenta muito utilizada em projetos de sistemas web para a construção de wireframes, que são protótipos não funcionais que servirão de base para a validação e desenvolvimento do produto final. Nele criei os designs das telas necessárias para o nosso sistema, tal como login, homepage, carrinho e página do produto.
+
+<h3><b> HTML </b></h3>
+
+HTML é a linguagem de marcação que utilizamos no desenvolvimento web para criação do conteúdo das páginas. Lá definimos quais campos, textos e imagens teremos em cada tela, estruturando tudo conforme necessário.
+
+<h3><b> CSS e bootstrap </b></h3>
+
+CSS é a linguagem de estilização responsável por dar forma ao nosso conteúdo, trazendo cores e posicionamentos adequados a cada elemento. Por não possuir nenhum conhecimento prévio de estilizações no primeiro semestre, me apoiei no uso do bootstrap, um dos frameworks mais conhecidos para realizar a estilização de componentes. Através da adição de algumas classes específicas no HTML, já é possível obter um visual completo para determinada situação.
 
 <h3><b> Contribuições pessoais </b></h3>
 
 Iniciei o projeto focado na parte do front-end, onde participei ativamente na elaboração do design no figma e da criação das telas através de:
 - Estruturação das páginas com HTML
+  - Durante esse projeto, tive meu primeiro contato com o desenvolvimento web, e criar o HTML foi o meu primeiro desafio. Por meio de pesquisas, fui começando a entender levemente o que era necessário, não somente para estruturar a página, mas o HTML como um todo em suas configurações.<br>
+  Ao longo do projeto criei nossa homepage, tela do produto, carrinho de compras e a página com informações do time responsável pela plataforma. 
 - Estilização do sistema com CSS e Bootstrap
+  - Depois de criar a base das páginas no HTML, foi a hora de começar a desenvolver a parte do estilo. Por também não conhecer a linguagem, em algumas pesquisas encontrei o bootstrap. Esse framework me auxiliou muito na criação de componentes como cards, banners e botões. Ainda assim, para chegar mais próximo do nosso wireframe, precisei utilizar um pouco do CSS puro para conseguir modificar e refinar alguns detalhes pontuais.
 
 <h3><b> Aprendizados Efetivos </b></h3>
 
@@ -81,6 +95,10 @@ Durante o trabalho nesse projeto, pude me desenvolver em algumas áreas na qual 
 
 - <h3>Frameworks</h3>
     O Bootstrap foi o principal framework utilizado por mim durante o trabalho no projeto. Por não ter nenhum conhecimento prévio de como criar uma página web, o Bootstrap serviu de grande auxílio por possuir designs prontos, que são facilmente acessados por meio de classes no HTML.
+
+
+- <h3>Trabalho em equipe</h3>
+    Trabalhar em equipe como em uma empresa, me deu uma visão muito mais próxima da realidade da nossa área. Aprendi a como me organizar melhor durante as divisões de tarefas e a me comunicar melhor também com os membros do time.
 
 ---
 
@@ -113,7 +131,19 @@ O projeto teve como objetivo, realizar a criação de um dashboard, que consumir
 - Javascript
 - Charts JS
 
-<h3><b> JavaScript </b></h3>
+<h3><b> Python </b></h3>
+
+Durante esse projeto, o Python se fez útil para o tratamento das informações recebidas. A empresa parceira nos disponibilizou dois arquivos do tipo json para serem carregados no nosso sistema. Através do python, fizemos o mapeamento do formato dos dois arquivos, tratando e unindo todas as informações em um único formato padrão recinhecido pelo nosso sistema
+
+<h3><b> Django </b></h3>
+
+Novamente utilizamos o django para realizar a integração entre backend e frontend, fazendo a transferência de informações e renderização de conteúdos na tela.
+
+<h3><b> HTML, CSS e Bootstrap </b></h3>
+
+Para esse projeto, continuei utilizando as mesmas tecnologias para a criação da base e estilização dos conteúdos, mas dessa vez com um controle maior da estilização, por já possuir uma noção melhor do funcionamento das tecnologias, visto que já havia utilizado cada uma delas no semestre anterior
+
+<h3><b> JavaScript e Charts JS</b></h3>
 
 Por estar focado na parte do front-end, fez-se necessário o uso de uma nova linguagem de programação para dar mais interatividade ao sistema e torna-lo mais atrativo ao usuário. Através do JavaScript e com o auxílio da biblioteca Charts JS, gerei gráficos com os valores enviados pelo back-end e que dariam sentido ao nosso sistema, validando nossa entrega.
 
@@ -121,8 +151,11 @@ Por estar focado na parte do front-end, fez-se necessário o uso de uma nova lin
 
 Ao longo do projeto auxiliei tanto os desenvolvedores da parte do front-end quanto do back-end:
 - Auxílio na criação e estilização das páginas
+  - Realizei a criação de todas as páginas do nosso sistema. Na homepage, fiz a inserção dos gráficos, identificados por títulos e legendas, para facilitar a visualização das informações recebidas e tratadas previamente com o python. Também possuíamos uma tela de colaboradores, informando quantas tasks cada um havia trabalhado, por quantas horas, e o email de cada um. Por fim, nossa terceira tela era um hanking de melhores funcionários, de acordo com o fechamento de tasks e horas gastas.
 - Auxílio no tratamento dos dados e padronização com python
+  - Também trabalhei no tratamento das informações, buscando entender como seria possível padronizar os diferentes formatos de informações recebidas, juntando o json fornecido pelo Jira e pelo Trello em um só formato.
 - Registro dos dados e criação dos gráficos interativos
+  - A criação dos gráficos foi o foco principal do projeto, e através do JavaScript, consegui recolher as informações vindas do backend e coloca-las na tela, permitindo ao usuário uma visualização bem mais facilitada dos dados.
 
 <h3><b> Aprendizados Efetivos </b></h3>
 
@@ -169,27 +202,32 @@ Para esse projeto, tivemos como objetivo realizar a criação de um CRM (Custom 
 - Javascript
 - Charts JS
 
+<h3><b> Python e Flask </b></h3>
+
+Novamente tivemos nosso backend desenvolvido em Python, mas dessa vez utilizando o framework Flask, que em algumas pesquisas se mostrou mais adequado às necessidades do nosso projeto
+
+<h3><b> HTML, CSS, JavaScript e Charts JS </b></h3>
+
+Diferente dos outros semestres, dessa vez não foi utilizado o bootstrap. Como já estava no terceiro semestre e possuia um conhecimento maior das tecnologias, decidi me dedicar em entender mais a fundo sobre as tags HTML e os atributos do CSS. No início foi um pouco complicado, mas ao longo do desenvolvimento, as coisas foram ficando mais fáceis e descobri que conseguiria ter um controle muito maior do meu sistema e do seu visual, ao fazer a estilização sem a ajuda de um framework, me aproximando muito mais do nosso wireframe produzido no Figma.<br>
+A utilização do JavaScript e do Charts JS para recolhimento das informações também aconteceu de uma forma mais simples, por conta da experiência adquirida no semestre anterior.
+
 <h3><b> Contribuições pessoais </b></h3>
 
 Nesse projeto busquei entender mais a fundo as tecnologias utilizadas no front-end, codificando a parte visual sem a ajuda do Bootstrap 
 - Auxílio na criação e estilização das páginas
+  - Nesse projeto, tivemos uma quantidade maior de telas a serem produzidas, contando com a homepage (continha um kanban para visualização das tasks), tela de contatos, dashboard, cadastro de usuários, relatórios, perfil do usuário e login.
 - Auxílio no tratamento dos dados e padronização com python
+  - Como conhecimento aprendido no semestre anterior, o python também foi muito útil para a padronização dos dados fornecidos e que seriam utilizados em nosso sistema
 - Registro dos dados e criação dos gráficos interativos
+  - Através do JavaScript, unido também ao backend, criamos funções de criação de usuários e tickets no kanban, que impactavam diretamente na visualização dos nossos gráficos na tela de dashboard.
 
 <h3><b> Aprendizados Efetivos </b></h3>
 
-Nesse segundo projeto consegui estar em mais contato não só com front-end, mas também com o backend, o que me possibilitou me desenvolver nos seguintes quesitos:
+- <h3>Front end</h3>
+    Como meu foco maior nesse semestre foi entender mais a fundo o funcionamento das linguagens utilizadas no frontend, pude compreender melhor como cada coisa funciona, para que serve e em qual momento devo utilizá-la. O entendimento dos atributos CSS foi o que mais impactou minha forma de desenvolver, pois a partir daí comecei a ser capaz de entregar como resultado, aquilo que estava planejado em nosso wireframe. Esse conhecimento foi muito útil não só para o projeto, mas também me possibilitou consequir um emprego na área, ao final do semestre, como desenvolvedor frontend em uma empresa multi-nacional, a Johnson & Johnson.
 
-- <h3>Trabalho em equipe</h3>
-    Atuando nas duas frentes do projeto, sendo o front-end e o back-end, acabei desenvolvendo melhor minha forma de trabalhar em equipe. Ao fornecer auxílio, precisei aprimorar meu lado empático e procurar entender as dificuldades de cada um, para que pudesse ajudar da melhor forma e assim conseguirmos finalizar as tarefas dentro do prazo estipulado
-
-- <h3>Gestão de tempo</h3>
-    Além de prestar auxílio aos meus colegas também possuia minhas próprias tasks, o que me forçou de modo positivo a gerir melhor meu tempo. Separava horários específicos em que estaria livre para ajudar e que estaria focado no que eu havia me comprometido em entregar.
-
-- <h3>Bibliotecas</h3>
-    O uso de bibliotecas foi algo novo para mim nesse semestre. Esse tipo de tecnologia ajuda muito pois não precisamos criar tudo do zero. Para cada objetivo existem diversas bibliotecas, as quais precisamos apenas importá-las e seguir a documentação de como usá-las.
-    A biblioteca utilizada foi o Charts JS para composição dos gráficos interativos, e que eram o foco do nosso projeto.
-
+- <h3>Gestão de pessoas</h3>
+    Como já tinha um conhecimento mais elevado do frontend, me encarreguei de organizar os outros desenvolvedores do time que atuariam no frontend, passando algumas tasks que faziam sentido em cada momento, tirando também dúvidas e servindo de apoio para cada um deles, quando necessário
 
 ---
 
@@ -213,8 +251,8 @@ Para esse projeto, foi proposto que fizéssemos um sistema no qual o usuário pu
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- Python
-- Flask
+- Java
+- Spring
 - Figma
 - HTML
 - CSS
@@ -222,9 +260,17 @@ Para esse projeto, foi proposto que fizéssemos um sistema no qual o usuário pu
 - Vue JS
 - Sass
 
+<h3><b> Java e Spring </b></h3>
+
+Esse foi o meu primeiro projeto desenvolvido no curso de Banco de Dados. Bem diferente do que já havia utilizado no curso de Análise e Desenvolvimento de Sistemas, dessa vez o backend foi produzido com Spring, a linguagem principal aprendida em BD.
+
 <h3><b> Vue JS </b></h3>
 
 Principal tecnologia focada na parte do front-end ao longo da realização desse projeto, Vue JS é um framework que auxilia e facilita a criação de sistemas do tipo SPA (Single Page Application), contando também com uma extensa biblioteca gratúita de elementos criados pela comunidade que o utiliza, e que também acaba agilizando o processo de desenvolvimento do sistema.
+
+<h3><b> Sass </b></h3>
+
+Sass, diferente do Bootstrap, é uma biblioteca CSS, utilizada para facilitar a escrita do código CSS. Através dela, é possível criar códigos em formato cascata, ficando então, menor, mais organizado e de melhor entendimento para momentos de manutenção.
 
 <h3><b> Contribuições pessoais </b></h3>
 
