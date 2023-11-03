@@ -301,12 +301,18 @@ Nesse projeto, nos foi pedido a criação de um sistema que lesse e tratasse inf
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
-<img src="./images/P3_I2.jpg">
+<img src="./images/P6_I2.jpg">
+<figcaption style="font-size: smaller;">Login</p>
+<img src="./images/P6_I1.jpg">
+<figcaption style="font-size: smaller;">Cadastro</p>
+<img src="./images/P6_I3.png">
 <figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/P3_I1.jpg">
-<figcaption style="font-size: smaller;">Tela de contatos</p>
-<img src="./images/P3_I3.png">
-<figcaption style="font-size: smaller;">Tela de dashboard</p>
+<img src="./images/P6_I4.png">
+<figcaption style="font-size: smaller;">Homepage</p>
+<img src="./images/P6_I5.png">
+<figcaption style="font-size: smaller;">Homepage</p>
+<img src="./images/P6_I6.png">
+<figcaption style="font-size: smaller;">Atualização dos termos</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
