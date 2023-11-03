@@ -18,12 +18,12 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 ---
 
 <h2>Sumário</h2>
-<h3><a href="#user-content-projeto1"><b>Projeto 1: E-commerce</b></a></h3>
-<h3><a href="#user-content-projeto2"><b>Projeto 2: Dashboard</b></a></h3>
-<h3><a href="#user-content-projeto3"><b>Projeto 3: CRM</b></a></h3>
-<h3><a href="#user-content-p4"><b>Projeto 4: ERP</b></a></h3>
+<h3><a href="#user-content-projeto-1-e-commerce-"><b>Projeto 1: E-commerce</b></a></h3>
+<h3><a href="#user-content-projeto-2-dashboard-"><b>Projeto 2: Dashboard</b></a></h3>
+<h3><a href="#user-content-projeto-3-crm-"><b>Projeto 3: CRM</b></a></h3>
+<h3><a href="#user-content-projeto-4-subiter-"><b>Projeto 4: ERP</b></a></h3>
 <h3><a href="#user-content-p5"><b>Projeto 5: Data Transfer</b></a></h3>
-<h3><a href="#user-content-p6"><b>Projeto 6: GeoForesight</b></a></h3>
+<h3><a href="#user-content-projeto-6-geoforesight-"><b>Projeto 6: GeoForesight</b></a></h3>
 
 ---
 ---
