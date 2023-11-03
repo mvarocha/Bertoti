@@ -23,7 +23,7 @@ Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e R
 <h3><a href="#user-content-projeto3"><b>Projeto 3: CRM</b></a></h3>
 <h3><a href="#user-content-p4"><b>Projeto 4: ERP</b></a></h3>
 <h3><a href="#user-content-p5"><b>Projeto 5: Data Transfer</b></a></h3>
-<h3><a href="#user-content-p6"><b>Projeto 6: </b></a></h3>
+<h3><a href="#user-content-p6"><b>Projeto 6: GeoForesight</b></a></h3>
 
 ---
 ---
@@ -290,3 +290,100 @@ Já tendo um conhecimento bem maior sobre o desenvolvimento do front-end "puro",
     Por ser a primeira vez em que tive contato com um framework front-end, foi bem complexo me adaptar ao modo de criação com a nova tecnologia. Mas consegui entender bem o propósito e como deveria utilizá-lo, aplicando também algumas boas práticas à estrutura do sistema.
 
 ---
+
+<h2 id="projeto6" align="center"><b><a href="https://github.com/PhatomFatec/GeoForesight" style="color: inherit; cursor: pointer;">Projeto 6: GeoForesight</a> 🔗</b></h2>
+
+<p align="center">Projeto Integrador - 6° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Visiona</p>
+
+<h3><b> Visão do Projeto </b></h3>
+
+Nesse projeto, nos foi pedido a criação de um sistema que lesse e tratasse informações recebidas através de uma API, na qual teríamos dados referentes à glebas (1. Terreno próprio para cultivo; 2. terreno próprio para cultivo; torrão, leiva.) cadastradas no PROAGRO. Por realizar o recolhimento de dados sensíveis, deveriíamos implementar as normas da LGPD necessárias ao sistema. Com relação aos requisitos do sistema, deveríamos possibilitar uma visualização das glebas no mapa, na qual ao passar o cursor do mouse por cima, o usuário deveria visualizar informações sobre aquela porção de terra, e ao clicar sobre a ela, um gráfico de série temporal deveria ser exibido.
+
+<details>
+<summary>IMAGENS DO SISTEMA</summary>
+<img src="./images/P3_I2.jpg">
+<figcaption style="font-size: smaller;">Homepage</p>
+<img src="./images/P3_I1.jpg">
+<figcaption style="font-size: smaller;">Tela de contatos</p>
+<img src="./images/P3_I3.png">
+<figcaption style="font-size: smaller;">Tela de dashboard</p>
+</details>
+
+<h3><b> Tecnologias utilizadas </b></h3>
+
+- ReactJS
+- NextJS
+- Tailwind
+- Figma
+- Python
+- Flask
+- Mongo DB
+
+<h3><b> ReactJS, NextJS </b></h3>
+
+Seguindo no aprendizado de novas tecnologias front-end, decidi me arriscar utilizando NextJS, um framework baseado em ReactJS com algumas melhorias tanto de usabilidade quanto performance, permitindo a criação mais facilitada do sistema e com uma performance melhor. Um dos benefícios do NextJS e o mais importante para o sistema desenvolvido foi o funcionamento do fetch, que no JavaScript Vanilla acaba sendo super básico e sem muitos benefícios, se comparado ao Axios, por exemplo, mas que nesse Framework possui um funcionamento diferenciado, como o caching de requisições. O NextJS consegue compreender quando duas requisições iguais são realizadas, e utiliza o processamento em caching para melhorar a performance do sistema, o que gerou uma melhoria significativa, visto que o sistema desenvolvido nesse semestre estava carregado com várias requisições para validação de diversas situações, como:
+- Cadastro de usuário;
+- Login;
+- Validação de aceite dos Termos e Condições do sistema;
+- Validação da liberação de envio de e-mails informativos ao usuário;
+- Alteração no aceite de envio de e-mails informativos;
+- Requisição das glebas para plotagem no mapa.
+Para a disponibilização de um mapa informativo, utilizei a biblioteca React Leaflet, que já conta com várias funcionalidades importantes e que faziam parte dos requisitos. Com ela consegui criar a área do mapa interativo, onde o usuário poderia utilizar o zoom-in e zoom-out, além de poder navegar por diferentes áreas do mapa também. Através dessa biblioteca, também consegui fazer a plotagem das glebas contendo um tooltip com as informações referentes àquela área em especifico através de uma requisição para o back-end, na qual recebia tanto os dados informativos, quanto os pontos dos vértices do terreno, para delimitação do mesmo.
+O sistema conta com um menu superior, onde o usuário consegue escolher quais filtros deseja utilizar para a pesquisa, sendo possivel optar por:
+- REFBACEN (código referente à um conjunto específico de glebas);
+- Data de início do plantio;
+- Data de fim do plantio;
+- Data de início da colheita;
+- Data de fim da colheita;
+- Tipo de grão;
+- Tipo de produção;
+- Tipo de irrigação;
+- Tipo de solo;
+- Tipo de clima;
+- Tipo de cultivo;
+- Código identificador da gleba;
+- Estado;
+- Município.
+Ao escolher os filtros desejados, inserir os dados e realizar a pesquisa, as glebas são plotadas no mapa, o centro é redirecionado para a posição da primeira gleba exibida e o zoom ajustado para permitir uma visualização mais facilitada. Há também a opção de realizar a pesquisa sem fornecer nenhum filtro, retornando então todas as glebas, mas assumindo o risco de uma pesquisa mais demorada, devido ao enorme número de dados encontrados.
+Implementei também a função de clique sobre a gleba, onde ao clicar, as informações da gleba são recolhidas e um gráfico é gerado exibindo informações de série temporal para aquela área.
+Para a tela de cadastro, fiz também o tratamento das informações fornecidas utilizando expressões regex:
+- No campo "Nome", o usuário é capaz de inserir apenas letras, não sendo possível adicionar números ou caracteres especiais no campo em questão.
+- Ao fornecer o "E-mail", o usuário deve respeitar o formato padrão, contendo a primera parte do email, o caractere especial "@", a segunda parte do email, um ponto "." e três letras finais. Se não cumprida essas exigencias, o campo recebe um destaque em vermelho, esperando que o usuário digite um endereço de e-mail válido.
+- O campo de "Senha" também possui alguns requisitos. É preciso inserir ao menos uma letra maiúscula, um caractere numérico, possuir ao menos 8 caracteres no total e reinserir a mesma senha corretamente no campo de validação, para garantir que o usuário sabe a senha que digitou anteriormente, e não inseriu qualquer coisa sem atenção.
+- O campo de aceite dos Termos e Condições do sistema também é obrigatório.
+- Ainda há também um campo opcional para caso o usuário deseje receber e-mails informativos da plataforma.
+Somente depois de fornecer todos os dados corretamente e aceitar os Termos e Condições, que o botão de registro é liberado para o usuário e o cadastro é realizado. Ao clicar para efetuar o cadastro, o POST é feito no banco e o usuário é redirecionado para a página de login.
+Na página de login, ao fornecer o e-mail e senha e clicar para logar, o usuário é identificado e uma validação é feita antes de movê-lo para a página inicial, identificando se ele aceitou a última versão dos Termos e Condições. Se já estiver aceito, o usuário segue no sistema normalmente, caso contrário, é redirecionado para uma página dedicada ao termo, possuindo o título "Atualização dos Termos e Condições". Por ser uma aceitação obrigatória para o acesso no sistema, as únicas opções disponíveis ao usuário são aceitar os novos termos ou fazer logoff e se desconectar. Se o usuário optar por aceitar os novos termos, essa ação é registrada no banco de dados e o usuário pode então seguir normalmente no sistema.
+Na tela inicial, há também um ícone de notificação, que mostra um sino na cor preta quando as notificações por e-mail estão habilitadas, e um sino na cor vermelha com um risco na diagonal, informando que as notificações estão desabilitadas, podendo navegar entre os dois estados apenas com um clique sobre o botão.
+Além disso tudo, o sistema também conta com algumas notificações na tela que aparecem em determinados momentos, para informar que a ação foi bem sucedida ou se houve algum erro.
+
+<h3><b> Tailwind </b></h3>
+
+Com relação à estilização do sistema, ao criar o projeto com NextJS já inseri o Tailwind, uma biblioteca CSS semelhante ao bootstrap mas com muito mais liberdade e compatibilidade, através da qual foi possível criar toda a estilização do sistema apenas fornecendo classes nos elementos. Foi uma proposta bem diferente do que eu estava acostumado e um pouco confuso no começo, mas pouco tempo depois as classes já viraram um costume e todo o processo se tornou muito mais fácil. Por conta desse formato diferente, no qual as classes eram inseridas diretamente nos elementos, o maior problema que tive em outros projetos não aconteceu aqui, o conflito de estilos. Em projetos anteriores, quando a estilização chegava em um estágio mais complexo, alguns estilos acabavam conflitando, tornando mais difícil criar algo específico para uma determinada região, o que não aconteceu nem de longe dessa vez.
+
+<h3><b> Figma </b></h3>
+
+Novamente, o Figma foi a ferramenta escolhida para a criação do wireframe. Dessa vez, confeccionei um wireframe um pouco mais bem elaborado, colocando algumas ligações entre as páginas, então o cliente poderia acessar uma espécie de protótipo, clicando sobre os botões e tendo uma ideia de como o sistema iria se comportar ao final do desenvolvimento.
+
+<h3><b> Python, Flask e Mongo DB </b></h3>
+
+Como um dos requisitos do sistema era relacionado ao aprendizado de máquina para criação da série temporal, Python foi a tecnologia escolhida para esse projeto, por ser mais comumente utilizado em casos como esse. Junto a ele, utilizamos também o Flask e o Mongo DB, para registro de algumas informações específicas.
+
+
+<h3><b> Contribuições pessoais </b></h3>
+
+Nesse projeto, me prontifiquei a atuar como Product Owner, além de desenvolvedor front-end. A posição de PO foi um desafio, pois sempre fui um profissional mais técnico e esse cargo requer uma skill social e comunicativa bem mais elevada. Precisei entender o projeto em sua totalidade, qual era a dor do cliente e o que poderíamos fazer para solucionar seu problema. Aprendi que muitas vezes o cliente sabe o que quer, mas não o que precisa, então como PO, é meu trabalho fornecer a solução mais adequada para ele. Ao longo das sprints fui levantando algumas questões para o cliente, de dúvidas que foram surgindo dentro do time, e validei também nossas entregas, dizendo no que iríamos atuar e porque aquilo seria uma entrega de valor para ele. Não só em contato com a empresa parceira, mas dentro do time também precisei priorizar algumas atividades e despriorizar outras, a fim de que os desenvolvedores fossem capazes de entregar ao final da sprint algo que realmente faria sentido e que seria útil também, dentro da ideia de um MVP.
+
+<h3><b> Aprendizados Efetivos </b></h3>
+
+Trabalhar como PO foi bem desafiador e me possibilitou aprender e entender mais como funciona essa outra etapa dos projetos, quais desafios são enfrentados, como lidar com clientes e com ideias divergentes dentro da equipe quanto a priorização de atividades.
+Como desenvolvedor, pude aprender várias novas tecnologias, como o framework NextJS baseado no ReactJS, e bibliotecas como React Leaflet e Tailwind. Por não ser o primeiro framework que utilizei, pude notar alguns padrões entre eles, apesar de serem diferentes, como a criação de componentes e páginas, por exemplo. Outro ponto de aprendizado que foi de grande utilizade foram as expressões regex, das quais fiz uso para validar os campos de input da página de cadastro de usuários.
+
+- <h3>Empatia</h3>
+    Acredito que como Product Owner, a empatia se fez uma das características mais necessárias, para que eu pudesse compreender de fato quais eram as necessidades do cliente, quais problemas ele enfrenteva e conseguir passar isso para o time de uma forma em que todos entenderiam e saberiam o que deveria ser feito
+
+- <h3>Liderança</h3>
+  Saber expressar bem as informações e necessidades do projeto foram alguns dos desafios também desse projeto. Houve momentos em qua haviam divergências dentro do time quanto à priorização de atividades, nos quais precisei me impor de modo um pouco mais firme, claro que respeitando a todos, mas não deixando que decisões erradas fossem tomadas, explicando detalhadamente o porquê de estarmos priorizando tal atividade, o porquê isso era importante e o motivo de deixarmos a outra atividade em questão despriorizada, na sprint atual.
+
+- <h3>Frameworks, Bibliotecas e Regex</h3>
+    O uso de frameworks e bibliotecas não foi algo novo, mas o contato com o NextJS me permitiu aprimorar muito meus conhecimentos. Hoje consigo ter uma visão muito maior das possibilidade dentro do framework, como utilizá-lo e como organizar o projeto. O Tailwind foi uma surpresa muito agradável, pois nunca imaginei conseguir estilizar um sistema de forma tão rápida e sem conflitos. Além disso, o Regex foi a minha maior descoberta nesse semestre, pois nunca tinha ouvido falar mas foi de grande utilizade para validação dos campos de input. Se tratando de definir padrões, o uso do Regex se torna essencial e abre oportunidades gigantes de melhorias, nos permitindo criar um sistema mais livre de erros e com uma melhor usabilidade para o usuário
