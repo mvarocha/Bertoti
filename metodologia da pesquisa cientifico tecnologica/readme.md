@@ -322,14 +322,17 @@ Nesse projeto, nos foi pedido a criação de um sistema que lesse e tratasse inf
 <h3><b> ReactJS, NextJS </b></h3>
 
 Seguindo no aprendizado de novas tecnologias front-end, decidi me arriscar utilizando NextJS, um framework baseado em ReactJS com algumas melhorias tanto de usabilidade quanto performance, permitindo a criação mais facilitada do sistema e com uma performance melhor. Um dos benefícios do NextJS e o mais importante para o sistema desenvolvido foi o funcionamento do fetch, que no JavaScript Vanilla acaba sendo super básico e sem muitos benefícios, se comparado ao Axios, por exemplo, mas que nesse Framework possui um funcionamento diferenciado, como o caching de requisições. O NextJS consegue compreender quando duas requisições iguais são realizadas, e utiliza o processamento em caching para melhorar a performance do sistema, o que gerou uma melhoria significativa, visto que o sistema desenvolvido nesse semestre estava carregado com várias requisições para validação de diversas situações, como:
+
 - Cadastro de usuário;
 - Login;
 - Validação de aceite dos Termos e Condições do sistema;
 - Validação da liberação de envio de e-mails informativos ao usuário;
 - Alteração no aceite de envio de e-mails informativos;
 - Requisição das glebas para plotagem no mapa.
+
 Para a disponibilização de um mapa informativo, utilizei a biblioteca React Leaflet, que já conta com várias funcionalidades importantes e que faziam parte dos requisitos. Com ela consegui criar a área do mapa interativo, onde o usuário poderia utilizar o zoom-in e zoom-out, além de poder navegar por diferentes áreas do mapa também. Através dessa biblioteca, também consegui fazer a plotagem das glebas contendo um tooltip com as informações referentes àquela área em especifico através de uma requisição para o back-end, na qual recebia tanto os dados informativos, quanto os pontos dos vértices do terreno, para delimitação do mesmo.
 O sistema conta com um menu superior, onde o usuário consegue escolher quais filtros deseja utilizar para a pesquisa, sendo possivel optar por:
+
 - REFBACEN (código referente à um conjunto específico de glebas);
 - Data de início do plantio;
 - Data de fim do plantio;
@@ -344,14 +347,17 @@ O sistema conta com um menu superior, onde o usuário consegue escolher quais fi
 - Código identificador da gleba;
 - Estado;
 - Município.
+
 Ao escolher os filtros desejados, inserir os dados e realizar a pesquisa, as glebas são plotadas no mapa, o centro é redirecionado para a posição da primeira gleba exibida e o zoom ajustado para permitir uma visualização mais facilitada. Há também a opção de realizar a pesquisa sem fornecer nenhum filtro, retornando então todas as glebas, mas assumindo o risco de uma pesquisa mais demorada, devido ao enorme número de dados encontrados.
 Implementei também a função de clique sobre a gleba, onde ao clicar, as informações da gleba são recolhidas e um gráfico é gerado exibindo informações de série temporal para aquela área.
 Para a tela de cadastro, fiz também o tratamento das informações fornecidas utilizando expressões regex:
+
 - No campo "Nome", o usuário é capaz de inserir apenas letras, não sendo possível adicionar números ou caracteres especiais no campo em questão.
 - Ao fornecer o "E-mail", o usuário deve respeitar o formato padrão, contendo a primera parte do email, o caractere especial "@", a segunda parte do email, um ponto "." e três letras finais. Se não cumprida essas exigencias, o campo recebe um destaque em vermelho, esperando que o usuário digite um endereço de e-mail válido.
 - O campo de "Senha" também possui alguns requisitos. É preciso inserir ao menos uma letra maiúscula, um caractere numérico, possuir ao menos 8 caracteres no total e reinserir a mesma senha corretamente no campo de validação, para garantir que o usuário sabe a senha que digitou anteriormente, e não inseriu qualquer coisa sem atenção.
 - O campo de aceite dos Termos e Condições do sistema também é obrigatório.
 - Ainda há também um campo opcional para caso o usuário deseje receber e-mails informativos da plataforma.
+
 Somente depois de fornecer todos os dados corretamente e aceitar os Termos e Condições, que o botão de registro é liberado para o usuário e o cadastro é realizado. Ao clicar para efetuar o cadastro, o POST é feito no banco e o usuário é redirecionado para a página de login.
 Na página de login, ao fornecer o e-mail e senha e clicar para logar, o usuário é identificado e uma validação é feita antes de movê-lo para a página inicial, identificando se ele aceitou a última versão dos Termos e Condições. Se já estiver aceito, o usuário segue no sistema normalmente, caso contrário, é redirecionado para uma página dedicada ao termo, possuindo o título "Atualização dos Termos e Condições". Por ser uma aceitação obrigatória para o acesso no sistema, as únicas opções disponíveis ao usuário são aceitar os novos termos ou fazer logoff e se desconectar. Se o usuário optar por aceitar os novos termos, essa ação é registrada no banco de dados e o usuário pode então seguir normalmente no sistema.
 Na tela inicial, há também um ícone de notificação, que mostra um sino na cor preta quando as notificações por e-mail estão habilitadas, e um sino na cor vermelha com um risco na diagonal, informando que as notificações estão desabilitadas, podendo navegar entre os dois estados apenas com um clique sobre o botão.
