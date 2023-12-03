@@ -251,30 +251,31 @@ Este projeto teve como proposta o desenvolvimento de sistema no qual o usuário 
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- Java
-- Spring
-- Figma
-- HTML
-- CSS
-- Javascript
-- Vue JS
-- Sass
-
-<h3><b> Java e Spring </b></h3>
-
-Esse foi o meu primeiro projeto desenvolvido no curso de Banco de Dados. Bem diferente do que já havia utilizado no curso de Análise e Desenvolvimento de Sistemas, o backend foi produzido com Spring, a linguagem principal aprendida em BD.
-
-<h3><b> Vue JS </b></h3>
-
-Principal tecnologia focada na parte do front-end ao longo da realização desse projeto, Vue JS é um framework que auxilia e facilita a criação de sistemas do tipo SPA (Single Page Application), contando também com uma extensa biblioteca gratuita de elementos criados pela comunidade que o utiliza, e que também acaba agilizando o processo de desenvolvimento do sistema.
-
-<h3><b> Sass </b></h3>
-
-Sass, diferente do Bootstrap, é uma biblioteca CSS, utilizada para facilitar a escrita do código CSS. Através desta biblioteca, é possível criar códigos em formato cascata, ficando então, menor, mais organizado e de melhor entendimento para momentos de manutenção.
+- <b>Vue JS:</b> Framework no qual foram construidas as páginas e os componentes do sistema.
+- <b>Sass:</b> Biblioteca CSS utilizada para facilitar a escrita e organização dos estilos das páginas e de seus componentes.
+- <b>Figma:</b> Plataforma utilizada para elaboração do wireframe.
 
 <h3><b> Contribuições pessoais </b></h3>
 
-Durante esse semestre, me voluntariei a trabalhar no papel de Scrum Master, organizando as demandas do time e buscando resolver possíveis dificuldades enfrentadas por cada um, além de também atuar como desenvolvedor front-end, que se fez necessário devido o número reduzido de integrantes.
+<h4><b> Scrum Master </b></h4>
+
+Fiz a organização das demandas do projeto, trabalhando jundo ao Product Owner para priorizar as atividades principais, de forma que pudessemos entregar o MVP ao final de cada sprint, atualizando também o burndown, para fornecer aos demais integrantes do grupo, uma visualização do nosso desenvolvimento.
+
+<h4><b> Desenvolvedor </b></h4>
+
+Trabalhei no desenvolvimento das páginas que constituiam o sistema, a configuração das rotas, toda a estilização e as funções de interatividade do usuário.
+
+<h3 align="center">APRENDIZADOS EFETIVOS</h3>
+
+<h3><b> Hard Skills </b></h3>
+
+<h3><b> Vue JS </b></h3>
+
+Utilizei o Vue JS para a criação das páginas do sistema, assim também como cada componente utilizado. Através do framework, fiz a configuração das rotas e a implementação das funcionalidades, através das quais o usuário iria interagir com a aplicação. Fiz também as requisições necessárias para que todo o conteúdo fosse dinâmico.
+
+<h3><b> Sass </b></h3>
+
+Utilizei a biblioteca Sass do CSS para criar de forma mais fácil e organizada os estilos necessários para dar vida ao sistema. Através dela, pude escrever o código CSS em formato de cascata, que depois era compilado e gerava o CSS em seu formato padrão. O benefício do uso dessa tecnologia foi a escrita de um código mais enxuto e com uma manutenção mais simples.
 
 <h3><b> Aprendizados Efetivos </b></h3>
 
@@ -324,20 +325,27 @@ Este projeto teve como objetivo a criação de um sistema de transferência de a
 - Bootstrap: Biblioteca utilizada para gerar a tabela de registro de transferência de arquivos realizadas através do sistema
 - Figma: Elaboração do wireframe
 
+<h3><b> Contribuições pessoais </b></h3>
+Realizei a criação das páginas através do HTML, a estilização com CSS e as funções de interatividade do sistema com JavaScript. Com o Bootstrap gerei uma tabela onde era possível filtrar os dados exibidos, e que se relacionavam às transferências feitas através da aplicação.
+Criei também os testes unitários das funções JavaScript, para fornecer um sistema mais seguro e livre de erros.
+
+<h3 align="center">APRENDIZADOS EFETIVOS</h3>
+
 <h3><b> Hard Skills </b></h3>
 
-<h4><b> Bootstrap </b></h4>
-
-Eu havia tido contato com a tecnologia durante os primeiros projetos do API, mas agora, tendo mais conhecimento sobre programação front-end, consegui utilizar melhor esta biblioteca, acompanhando também a documentação como forma de ajuda.
-
-<h4><b> JavaScript </b></h4>
+<h4><b> JavaScript ★★★★★ </b></h4>
 
 Dessa vez, utilizei o JavaScript de uma forma diferente. Nesse projeto, por não utilizar nenhum framework, fiz uso do JavaScript para manipular os elementos da página e fazer a troca dos mesmos, dependendo da interação do usuário.
 
-<h4><b> Jest </b></h4>
+<h4><b> Jest ★★★★☆ </b></h4>
 
 Através do Jest criei os testes unitários para as funções do JavaCript, o que por sua vez nos permitiu construir um sistema mais confiável e livre de falhas que poderiam passar despercebidas durante o desenvolvimento.
 
+<h4><b> Bootstrap ★★★☆☆ </b></h4>
+
+Eu havia tido contato com a tecnologia durante os primeiros projetos do API, mas agora, tendo mais conhecimento sobre programação front-end, consegui utilizar melhor esta biblioteca, acompanhando também a documentação como forma de ajuda.
+
+---
 ---
 
 <h2 id="projeto6" align="center"><b><a href="https://github.com/PhatomFatec/GeoForesight" style="color: inherit; cursor: pointer;">Projeto 6: GeoForesight</a> 🔗</b></h2>
@@ -346,7 +354,8 @@ Através do Jest criei os testes unitários para as funções do JavaCript, o qu
 
 <h3><b> Visão do Projeto </b></h3>
 
-Nesse projeto, nos foi pedido a criação de um sistema que lesse e tratasse informações recebidas através de uma API, na qual teríamos dados referentes à glebas (1. Terreno próprio para cultivo; 2. terreno próprio para cultivo; torrão, leiva.) cadastradas no PROAGRO. Por realizar o recolhimento de dados sensíveis, deveriíamos implementar as normas da LGPD necessárias ao sistema. Com relação aos requisitos do sistema, deveríamos possibilitar uma visualização das glebas no mapa, na qual ao passar o cursor do mouse por cima, o usuário deveria visualizar informações sobre aquela porção de terra, e ao clicar sobre a ela, um gráfico de série temporal deveria ser exibido.
+Nesse projeto, foi proposto a criação de um sistema capaz de ler e processar informações provenientes de uma API. Essas informações consistem em dados referentes a glebas, que são áreas específicas de terra dedicadas ao plantio e cadastradas no PROAGRO. Devido à natureza sensível dos dados coletados, era fundamental implementar as medidas necessárias da LGPD no sistema.
+Em relação aos requisitos da aplicação, foi preciso viabilizar a visualização das glebas em um mapa. Ao passar o cursor sobre uma dessas áreas, o usuário poderia acessar informações detalhadas sobre a respectiva porção de terra. Além disso, ao clicar em uma gleba, o sistema deveria exibir um gráfico de série temporal associado a ela.
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
