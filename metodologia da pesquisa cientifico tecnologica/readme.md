@@ -372,17 +372,28 @@ Nesse projeto, nos foi pedido a criação de um sistema que lesse e tratasse inf
 - <b>REGEX</b>: Expressão utilizada para validar os campos de nome, e-mail e senha durante o cadastro do usuário.
 - <b>Figma</b>: Utilizado para a elaboração dos wireframes
 
+<h3><b> Contribuições pessoais </b></h3>
+
+<h4><b> Product Owner </b></h4>
+    Como PO, mantive contato com a empresa, para entender qual era a sua real necessidade. Entendi que muitas vezes o cliente sabe o que quer, mas não sabe o que precisa, então o meu trabalho foi descobrir a raiz de seu problema e fornecer a solução mais adequada.
+
+<h4><b> Desenvolvedor </b></h4>
+    Desenvolvi todo o front-end da aplicação, contendo página de login, cadastro, atualização dos termos, página principal e perfil do usuário, assim também como os componentes necessários para a composição de cada uma.<br>
+    Crei todas as requisições necessárias para a comunicação do front-end com o back-end e as funções que possibilitariam a interação do usuário, como cadastro, login, aceitação de termos, pesquisa filtrada das glebas e visualização do gráfico da série temporal.
+
+<h3 align="center">APRENDIZADOS EFETIVOS</h3>
+
 <h3><b> Hard Skills </b></h3>
 
-<h4><b> Next JS </b></h4>
+<h4><b> Next JS ★★★★☆ </b></h4>
 
 Seguindo no aprendizado de novas tecnologias front-end, decidi me arriscar utilizando NextJS, um framework baseado em ReactJS com algumas melhorias tanto de usabilidade quanto performance. Um dos benefícios do NextJS, e o mais importante para o sistema desenvolvido, foi o funcionamento do fetch, que no JavaScript Vanilla acaba sendo muito básico e sem muitos benefícios se comparado ao Axios, por exemplo, mas que nesse Framework possui um funcionamento diferenciado, como o caching de requisições. O NextJS consegue compreender quando duas requisições iguais são realizadas, e utiliza o processamento em caching para melhorar a performance do sistema, o que gerou uma melhoria significativa.
 
-<h4><b> Leaflet </b></h4>
+<h4><b> Leaflet ★★★★☆ </b></h4>
 
 Para a disponibilização de um mapa informativo, utilizei a biblioteca React Leaflet, que já conta com várias funcionalidades importantes e que faziam parte dos requisitos. Com ela consegui criar a área do mapa interativo, onde o usuário poderia utilizar o zoom-in e zoom-out, além de poder navegar por diferentes áreas do mapa. Através dessa biblioteca, também consegui fazer a plotagem das glebas contendo um tooltip com as informações referentes àquela área em especifico por meio de uma requisição para o back-end, na qual recebia tanto os dados informativos, quanto os pontos dos vértices do terreno, para delimitação do mesmo.<br>
 
-<h4><b> REGEX </b></h4>
+<h4><b> REGEX ★★★★★ </b></h4>
 
 Para a tela de cadastro, fiz o tratamento das informações fornecidas utilizando expressões regex:
 
@@ -394,25 +405,14 @@ Para a tela de cadastro, fiz o tratamento das informações fornecidas utilizand
 
 Somente depois de fornecer todos os dados corretamente e aceitar os Termos e Condições, que o botão de registro é liberado para o usuário e o cadastro é realizado.
 
-<h3><b> Tailwind </b></h3>
+<h4><b> Tailwind ★★★★★ </b></h4>
 
 Com relação à estilização do sistema, ao criar o projeto com NextJS já inseri o Tailwind, um framwork CSS semelhante ao Bootstrap, mas com muito mais liberdade e compatibilidade, através da qual foi possível criar toda a estilização do sistema apenas fornecendo classes nos elementos. Foi uma proposta bem diferente do que eu estava acostumado e um pouco confuso no começo, mas pouco tempo depois as classes já viraram um costume e todo o processo se tornou muito mais fácil. Por conta desse formato diferente, no qual as classes eram inseridas diretamente nos elementos, o maior problema que tive em outros projetos não aconteceu aqui, o conflito de estilos. Em projetos anteriores, quando a estilização chegava em um estágio mais complexo, alguns estilos acabavam conflitando, tornando mais difícil criar algo específico para uma determinada região, o que não aconteceu dessa vez.
 
-<h3><b> Contribuições pessoais </b></h3>
+<h3><b> Soft Skills </b></h3>
 
-Nesse projeto, me prontifiquei a atuar como Product Owner, além de desenvolvedor front-end. A posição de PO foi um desafio, pois sempre fui um profissional mais técnico e esse cargo requer uma skill social e comunicativa bem mais elevada. Precisei entender o projeto em sua totalidade, qual era a dor do cliente e o que poderíamos fazer para solucionar seu problema. Aprendi que muitas vezes o cliente sabe o que quer, mas não o que precisa, então como PO, é meu trabalho fornecer a solução mais adequada para ele. Ao longo das sprints fui levantando algumas questões para o cliente, de dúvidas que foram surgindo dentro do time, e validei também nossas entregas, dizendo no que iríamos atuar e porque aquilo seria uma entrega de valor para ele. Não só em contato com a empresa parceira, mas dentro do time também precisei priorizar algumas atividades e despriorizar outras, a fim de que os desenvolvedores fossem capazes de entregar ao final da sprint algo que realmente faria sentido e que seria útil também, dentro da ideia de um MVP.
+<h4>Empatia ★★★★★</h4>
+  Como Product Owner do projeto, precisei entender a dor do cliente, qual era a raíz do problema e o que ele realmente precisava. Me colocando também no lugar dos desenvolvedores quando precisava explicar o que deveríamos fazer, de modo que todos entendessem de uma única forma.
 
-<h3><b> Aprendizados Efetivos </b></h3>
-
-Trabalhar como PO foi bem desafiador e me possibilitou aprender e entender mais como funciona essa outra etapa dos projetos, quais desafios são enfrentados, como lidar com clientes e com ideias divergentes dentro da equipe quanto a priorização de atividades.<br>
-Como desenvolvedor, pude aprender várias novas tecnologias, como o framework NextJS baseado no ReactJS, e bibliotecas como React Leaflet e Tailwind. Por não ser o primeiro framework que utilizei, pude notar alguns padrões entre eles, apesar de serem diferentes, como a criação de componentes e páginas, por exemplo. Outro ponto de aprendizado que foi de grande utilizade foram as expressões regex, das quais fiz uso para validar os campos de input da página de cadastro de usuários.
-
-- <h3>Empatia</h3>
-    Acredito que como Product Owner, a empatia se fez uma das características mais necessárias, para que eu pudesse compreender de fato quais eram as necessidades do cliente, quais problemas ele enfrenteva e conseguir passar isso para o time de uma forma em que todos entenderiam e saberiam o que deveria ser feito
-
-- <h3>Liderança</h3>
-  Saber expressar bem as informações e necessidades do projeto foram alguns dos desafios também desse projeto. Houve momentos em qua haviam divergências dentro do time quanto à priorização de atividades, nos quais precisei me impor de modo um pouco mais firme, claro que respeitando a todos, mas não deixando que decisões erradas fossem tomadas, explicando detalhadamente o porquê de estarmos priorizando tal atividade, o porquê isso era importante e o motivo de deixarmos a outra atividade em questão despriorizada, na sprint atual.
-
-- <h3>Frameworks, Bibliotecas e Regex</h3>
-    O uso de frameworks e bibliotecas não foi algo novo, mas o contato com o NextJS me permitiu aprimorar muito meus conhecimentos. Hoje consigo ter uma visão muito maior das possibilidade dentro do framework, como utilizá-lo e como organizar o projeto. O Tailwind foi uma surpresa muito agradável, pois nunca imaginei conseguir estilizar um sistema de forma tão rápida e sem conflitos.<br>
-    Além disso, o Regex foi a minha maior descoberta nesse semestre, pois nunca tinha ouvido falar mas foi de grande utilizade para validação dos campos de input. Se tratando de definir padrões, o uso do Regex se torna essencial e abre oportunidades gigantes de melhorias, nos permitindo criar um sistema mais livre de erros e com uma melhor usabilidade para o usuário
+<h4>Liderança ★★★★☆</h4>
+  Em momentos de conflitos de ideias quanto a prioridade das entregas, precisei ser firme e claro ao definir quais eram nossos objetivos, para que ao final da sprint pudessemos entregar o MVP.
