@@ -317,16 +317,26 @@ Este projeto teve como objetivo a criação de um sistema de transferência de a
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- Figma
-- Java
+- HTML: Criação da estrutura das páginas e conteúdos
+- CSS: Estilização das páginas e seus respectivos elementos 
+- JavaScript: Utilizado para dar dinamicidade ao sistema, através de funções e requisições
+- Jest: Utilizado para realizar testes unitários das funções criadas no JavaScript
+- Bootstrap: Biblioteca utilizada para gerar a tabela de registro de transferência de arquivos realizadas através do sistema
+- Figma: Elaboração do wireframe
 
-<h3><b> HTML, CSS, JavaScript e Bootstrap </b></h3>
+<h3><b> Hard Skills </b></h3>
 
-Estas tecnologias foram utilizadas para a criação das páginas do sistema.
+<h4><b> Bootstrap </b></h4>
+
+Eu havia tido contato com a tecnologia durante os primeiros projetos do API, mas agora, tendo mais conhecimento sobre programação front-end, consegui utilizar melhor esta biblioteca, acompanhando também a documentação como forma de ajuda.
+
+<h4><b> JavaScript </b></h4>
+
+Dessa vez, utilizei o JavaScript de uma forma diferente. Nesse projeto, por não utilizar nenhum framework, fiz uso do JavaScript para manipular os elementos da página e fazer a troca dos mesmos, dependendo da interação do usuário.
+
+<h4><b> Jest </b></h4>
+
+Através do Jest criei os testes unitários para as funções do JavaCript, o que por sua vez nos permitiu construir um sistema mais confiável e livre de falhas que poderiam passar despercebidas durante o desenvolvimento.
 
 ---
 
@@ -356,46 +366,25 @@ Nesse projeto, nos foi pedido a criação de um sistema que lesse e tratasse inf
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- ReactJS
-- NextJS
-- Tailwind
-- Figma
-- Python
-- Flask
-- Mongo DB
+- <b>Next JS:</b> O framework baseado em React JS foi utilizado para criação das páginas e componentes de maneira mais facilitada.
+- <b>Tailwind</b>: Utilizei o framework CSS para elaboração do design, de forma mais descomplicada e direta, através de classes passadas para cada elemento
+- <b>Leaflet</b>: Biblioteca do React JS que possibilitou a geração do mapa interativo dentro do sistema
+- <b>REGEX</b>: Expressão utilizada para validar os campos de nome, e-mail e senha durante o cadastro do usuário.
+- <b>Figma</b>: Utilizado para a elaboração dos wireframes
 
-<h3><b> ReactJS, NextJS </b></h3>
+<h3><b> Hard Skills </b></h3>
 
-Seguindo no aprendizado de novas tecnologias front-end, decidi me arriscar utilizando NextJS, um framework baseado em ReactJS com algumas melhorias tanto de usabilidade quanto performance, permitindo a criação mais facilitada do sistema e com uma performance melhor. Um dos benefícios do NextJS e o mais importante para o sistema desenvolvido foi o funcionamento do fetch, que no JavaScript Vanilla acaba sendo super básico e sem muitos benefícios, se comparado ao Axios, por exemplo, mas que nesse Framework possui um funcionamento diferenciado, como o caching de requisições. O NextJS consegue compreender quando duas requisições iguais são realizadas, e utiliza o processamento em caching para melhorar a performance do sistema, o que gerou uma melhoria significativa, visto que o sistema desenvolvido nesse semestre estava carregado com várias requisições para validação de diversas situações, como:
+<h4><b> Next JS </b></h4>
 
-- Cadastro de usuário;
-- Login;
-- Validação de aceite dos Termos e Condições do sistema;
-- Validação da liberação de envio de e-mails informativos ao usuário;
-- Alteração no aceite de envio de e-mails informativos;
-- Requisição das glebas para plotagem no mapa.
+Seguindo no aprendizado de novas tecnologias front-end, decidi me arriscar utilizando NextJS, um framework baseado em ReactJS com algumas melhorias tanto de usabilidade quanto performance. Um dos benefícios do NextJS, e o mais importante para o sistema desenvolvido, foi o funcionamento do fetch, que no JavaScript Vanilla acaba sendo muito básico e sem muitos benefícios se comparado ao Axios, por exemplo, mas que nesse Framework possui um funcionamento diferenciado, como o caching de requisições. O NextJS consegue compreender quando duas requisições iguais são realizadas, e utiliza o processamento em caching para melhorar a performance do sistema, o que gerou uma melhoria significativa.
 
-Para a disponibilização de um mapa informativo, utilizei a biblioteca React Leaflet, que já conta com várias funcionalidades importantes e que faziam parte dos requisitos. Com ela consegui criar a área do mapa interativo, onde o usuário poderia utilizar o zoom-in e zoom-out, além de poder navegar por diferentes áreas do mapa também. Através dessa biblioteca, também consegui fazer a plotagem das glebas contendo um tooltip com as informações referentes àquela área em especifico através de uma requisição para o back-end, na qual recebia tanto os dados informativos, quanto os pontos dos vértices do terreno, para delimitação do mesmo.<br>
-O sistema conta com um menu superior, onde o usuário consegue escolher quais filtros deseja utilizar para a pesquisa, sendo possivel optar por:
+<h4><b> Leaflet </b></h4>
 
-- REFBACEN (código referente à um conjunto específico de glebas);
-- Data de início do plantio;
-- Data de fim do plantio;
-- Data de início da colheita;
-- Data de fim da colheita;
-- Tipo de grão;
-- Tipo de produção;
-- Tipo de irrigação;
-- Tipo de solo;
-- Tipo de clima;
-- Tipo de cultivo;
-- Código identificador da gleba;
-- Estado;
-- Município.
+Para a disponibilização de um mapa informativo, utilizei a biblioteca React Leaflet, que já conta com várias funcionalidades importantes e que faziam parte dos requisitos. Com ela consegui criar a área do mapa interativo, onde o usuário poderia utilizar o zoom-in e zoom-out, além de poder navegar por diferentes áreas do mapa. Através dessa biblioteca, também consegui fazer a plotagem das glebas contendo um tooltip com as informações referentes àquela área em especifico por meio de uma requisição para o back-end, na qual recebia tanto os dados informativos, quanto os pontos dos vértices do terreno, para delimitação do mesmo.<br>
 
-Ao escolher os filtros desejados, inserir os dados e realizar a pesquisa, as glebas são plotadas no mapa, o centro é redirecionado para a posição da primeira gleba exibida e o zoom ajustado para permitir uma visualização mais facilitada. Há também a opção de realizar a pesquisa sem fornecer nenhum filtro, retornando então todas as glebas, mas assumindo o risco de uma pesquisa mais demorada, devido ao enorme número de dados encontrados.<br>
-Implementei também a função de clique sobre a gleba, onde ao clicar, as informações da gleba são recolhidas e um gráfico é gerado exibindo informações de série temporal para aquela área.<br>
-Para a tela de cadastro, fiz também o tratamento das informações fornecidas utilizando expressões regex:
+<h4><b> REGEX </b></h4>
+
+Para a tela de cadastro, fiz o tratamento das informações fornecidas utilizando expressões regex:
 
 - No campo "Nome", o usuário é capaz de inserir apenas letras, não sendo possível adicionar números ou caracteres especiais no campo em questão.
 - Ao fornecer o "E-mail", o usuário deve respeitar o formato padrão, contendo a primera parte do email, o caractere especial "@", a segunda parte do email, um ponto "." e três letras finais. Se não cumprida essas exigencias, o campo recebe um destaque em vermelho, esperando que o usuário digite um endereço de e-mail válido.
@@ -403,23 +392,11 @@ Para a tela de cadastro, fiz também o tratamento das informações fornecidas u
 - O campo de aceite dos Termos e Condições do sistema também é obrigatório.
 - Ainda há também um campo opcional para caso o usuário deseje receber e-mails informativos da plataforma.
 
-Somente depois de fornecer todos os dados corretamente e aceitar os Termos e Condições, que o botão de registro é liberado para o usuário e o cadastro é realizado. Ao clicar para efetuar o cadastro, o POST é feito no banco e o usuário é redirecionado para a página de login.<br>
-Na página de login, ao fornecer o e-mail e senha e clicar para logar, o usuário é identificado e uma validação é feita antes de movê-lo para a página inicial, identificando se ele aceitou a última versão dos Termos e Condições. Se já estiver aceito, o usuário segue no sistema normalmente, caso contrário, é redirecionado para uma página dedicada ao termo, possuindo o título "Atualização dos Termos e Condições". Por ser uma aceitação obrigatória para o acesso no sistema, as únicas opções disponíveis ao usuário são aceitar os novos termos ou fazer logoff e se desconectar. Se o usuário optar por aceitar os novos termos, essa ação é registrada no banco de dados e o usuário pode então seguir normalmente no sistema.<br>
-Na tela inicial, há também um ícone de notificação, que mostra um sino na cor preta quando as notificações por e-mail estão habilitadas, e um sino na cor vermelha com um risco na diagonal, informando que as notificações estão desabilitadas, podendo navegar entre os dois estados apenas com um clique sobre o botão.<br>
-Além disso tudo, o sistema também conta com algumas notificações na tela que aparecem em determinados momentos, para informar que a ação foi bem sucedida ou se houve algum erro.
+Somente depois de fornecer todos os dados corretamente e aceitar os Termos e Condições, que o botão de registro é liberado para o usuário e o cadastro é realizado.
 
 <h3><b> Tailwind </b></h3>
 
-Com relação à estilização do sistema, ao criar o projeto com NextJS já inseri o Tailwind, uma biblioteca CSS semelhante ao bootstrap mas com muito mais liberdade e compatibilidade, através da qual foi possível criar toda a estilização do sistema apenas fornecendo classes nos elementos. Foi uma proposta bem diferente do que eu estava acostumado e um pouco confuso no começo, mas pouco tempo depois as classes já viraram um costume e todo o processo se tornou muito mais fácil. Por conta desse formato diferente, no qual as classes eram inseridas diretamente nos elementos, o maior problema que tive em outros projetos não aconteceu aqui, o conflito de estilos. Em projetos anteriores, quando a estilização chegava em um estágio mais complexo, alguns estilos acabavam conflitando, tornando mais difícil criar algo específico para uma determinada região, o que não aconteceu nem de longe dessa vez.
-
-<h3><b> Figma </b></h3>
-
-Novamente, o Figma foi a ferramenta escolhida para a criação do wireframe. Dessa vez, confeccionei um wireframe um pouco mais bem elaborado, colocando algumas ligações entre as páginas, então o cliente poderia acessar uma espécie de protótipo, clicando sobre os botões e tendo uma ideia de como o sistema iria se comportar ao final do desenvolvimento.
-
-<h3><b> Python, Flask e Mongo DB </b></h3>
-
-Como um dos requisitos do sistema era relacionado ao aprendizado de máquina para criação da série temporal, Python foi a tecnologia escolhida para esse projeto, por ser mais comumente utilizado em casos como esse. Junto a ele, utilizamos também o Flask e o Mongo DB, para registro de algumas informações específicas.
-
+Com relação à estilização do sistema, ao criar o projeto com NextJS já inseri o Tailwind, um framwork CSS semelhante ao Bootstrap, mas com muito mais liberdade e compatibilidade, através da qual foi possível criar toda a estilização do sistema apenas fornecendo classes nos elementos. Foi uma proposta bem diferente do que eu estava acostumado e um pouco confuso no começo, mas pouco tempo depois as classes já viraram um costume e todo o processo se tornou muito mais fácil. Por conta desse formato diferente, no qual as classes eram inseridas diretamente nos elementos, o maior problema que tive em outros projetos não aconteceu aqui, o conflito de estilos. Em projetos anteriores, quando a estilização chegava em um estágio mais complexo, alguns estilos acabavam conflitando, tornando mais difícil criar algo específico para uma determinada região, o que não aconteceu dessa vez.
 
 <h3><b> Contribuições pessoais </b></h3>
 
