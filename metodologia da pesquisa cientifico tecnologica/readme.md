@@ -48,28 +48,11 @@ O objetivo do projeto consistiu em realizar a criação de um e-commerce para ve
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- Python
-- Django
-- Figma
-- HTML
-- CSS
-- Bootstrap
-
-<h3><b> Python e Django </b></h3>
-
-Sendo a primeira linguagem de programação a qual tive contato, Python é uma linguagem super versátil e descomplicada. Utilizou-se o framework Django para compor as páginas do nosso projeto e realizar a integração do back-end com o front-end. Através do uso dessa tecnologia, foi mais fácil configurar as funções e as mudanças de páginas
-
-<h3><b> Figma </b></h3>
-
-Figma é uma ferramenta muito utilizada em projetos de sistemas web para a construção de wireframes, que são protótipos não funcionais que serviram de base para a validação e desenvolvimento do produto final. Nele criei os designs das telas necessárias para o nosso sistema, tal como login, homepage, carrinho e página do produto.
-
-<h3><b> HTML </b></h3>
-
-HTML é a linguagem de marcação que utilizei no desenvolvimento web para criação do conteúdo das páginas. Lá defini os campos, textos e imagens em cada tela, estruturando tudo conforme necessário.
-
-<h3><b> CSS e bootstrap </b></h3>
-
-CSS é a linguagem de estilização responsável por dar forma ao nosso conteúdo, trazendo cores e posicionamentos adequados a cada elemento. Por não possuir nenhum conhecimento prévio de estilizações no primeiro semestre, me apoiei no uso do bootstrap, um dos frameworks mais conhecidos para realizar a estilização de componentes. Através da adição de algumas classes específicas no HTML, já é possível obter um visual completo para determinada situação.
+- <b>Python:</b> Linguagem na qual foi desenvolvida o back-end
+- <b>Figma:</b> Plataforma utilizada para criar os wireframes do sistema
+- <b>HTML:</b> Linguagem de marcação através da qual foi construída a estrutura das páginas
+- <b>CSS:</b> Utilizado para estilizar as páginas e seus elementos
+- <b>Bootstrap:</b> Utilizado para auxiliar no desenvolvimento do front-end de forma mais facilitada
 
 <h3><b> Contribuições pessoais </b></h3>
 
@@ -80,25 +63,39 @@ Iniciei o projeto focado na parte do front-end, onde participei ativamente na el
 - Estilização do sistema com CSS e Bootstrap
   - Depois de criar a base das páginas no HTML, foi a hora de começar a desenvolver a parte do estilo. Por também não conhecer a linguagem, em algumas pesquisas encontrei o bootstrap. Esse framework me auxiliou muito na criação de componentes como cards, banners e botões. Ainda assim, para chegar mais próximo do nosso wireframe, precisei utilizar um pouco do CSS puro para conseguir modificar e refinar alguns detalhes pontuais.
 
-<h3><b> Aprendizados Efetivos </b></h3>
+<h3 align="center">APRENDIZADOS EFETIVOS</h3>
 
-Durante o trabalho nesse projeto, pude me desenvolver em algumas áreas na qual nunca havia tido contato anteriormente:
+<h3>Hard Skills</h3>
 
-- <h3>Metodologia Ágil</h3>
-    O início do trabalho com o método Scrum facilitou a organização e desenvolvimento do projeto. Através deste método, foi mais fácil compreender os requisitos e traçar o plano de como iria ser entregue.
+<h4><b> Figma ★★★★☆</b></h4>
 
-- <h3>Linguagem de Marcação</h3>
-    Logo no início do projeto tive meu primeiro contato com o HTML e compreendi que haviam outros tipos de linguagem, além das de programação. Utilizando essa linguagem para estruturar nossas páginas, busquei saber mais sobre como a linguagem funcionava, como deveria ser estruturada, o que era indispensável e quais tags deveria utilizar para cada coisa.
+Figma é uma ferramenta muito utilizada em projetos de sistemas web para a construção de wireframes, que são protótipos não funcionais que serviram de base para a validação e desenvolvimento do produto final. Nele criei os designs das telas necessárias para o nosso sistema, tal como login, homepage, carrinho e página do produto.
 
-- <h3>Linguagem de Estilização</h3>
-    Em conjunto com o HTML, busquei conhecimento também sobre o CSS utilizado para dar vida ao sistema e comodidade ao usuário. Entendi que um sistema limpo dá mais conforto ao usuário e o mantém por mais tempo utilizando nosso sistema
+<h4><b> HTML ★★★☆☆</b></h4>
 
-- <h3>Frameworks</h3>
-    O Bootstrap foi o principal framework utilizado por mim durante o trabalho no projeto. Por não ter nenhum conhecimento prévio de como criar uma página web, o Bootstrap serviu de grande auxílio por possuir designs prontos, que são facilmente acessados por meio de classes no HTML.
+HTML é a linguagem de marcação que utilizei no desenvolvimento web para criação do conteúdo das páginas. Lá defini os campos, textos e imagens em cada tela, estruturando tudo conforme necessário.
+
+<h4><b> CSS e bootstrap ★★☆☆☆</b></h4>
+
+CSS é a linguagem de estilização responsável por dar forma ao nosso conteúdo, trazendo cores e posicionamentos adequados a cada elemento. Por não possuir nenhum conhecimento prévio de estilizações no primeiro semestre, me apoiei no uso do bootstrap, um dos frameworks mais conhecidos para realizar a estilização de componentes. Através da adição de algumas classes específicas no HTML, já é possível obter um visual completo para determinada situação.
+
+<h4>Linguagem de Marcação ★★☆☆☆</h4>
+Logo no início do projeto tive meu primeiro contato com o HTML e compreendi que haviam outros tipos de linguagem, além das de programação. Utilizando essa linguagem para estruturar nossas páginas, busquei saber mais sobre como a linguagem funcionava, como deveria ser estruturada, o que era indispensável e quais tags deveria utilizar para cada coisa.
+
+<h4>Linguagem de Estilização ★★☆☆☆</h4>
+Em conjunto com o HTML, busquei conhecimento também sobre o CSS utilizado para dar vida ao sistema e comodidade ao usuário. Entendi que um sistema limpo dá mais conforto ao usuário e o mantém por mais tempo utilizando nosso sistema
+
+<h4>Frameworks ★★☆☆☆</h4>
+O Bootstrap foi o principal framework utilizado por mim durante o trabalho no projeto. Por não ter nenhum conhecimento prévio de como criar uma página web, o Bootstrap serviu de grande auxílio por possuir designs prontos, que são facilmente acessados por meio de classes no HTML.
+
+<h3>Soft Skills</h3>
+
+<h4>Metodologia Ágil ★★★★☆</h4>
+O início do trabalho com o método Scrum facilitou a organização e desenvolvimento do projeto. Através deste método, foi mais fácil compreender os requisitos e traçar o plano de como iria ser entregue.
 
 
-- <h3>Trabalho em equipe</h3>
-    Trabalhar em equipe como em uma empresa me deu uma visão muito mais próxima da realidade da nossa área. Aprendi como me organizar melhor durante as divisões de tarefas e como me comunicar melhor também com os membros do time.
+<h4>Trabalho em equipe ★★★★☆</h4>
+Trabalhar em equipe como em uma empresa me deu uma visão muito mais próxima da realidade da nossa área. Aprendi como me organizar melhor durante as divisões de tarefas e como me comunicar melhor também com os membros do time.
 
 ---
 
@@ -122,30 +119,14 @@ O projeto teve como objetivo realizar a criação de um dashboard, que consumiri
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- Python
-- Django
-- Figma
-- HTML
-- CSS
-- Bootstrap
-- Javascript
-- Charts JS
-
-<h3><b> Python </b></h3>
-
-Durante esse projeto, o Python se fez útil para o tratamento das informações recebidas. A empresa parceira me disponibilizou dois arquivos do tipo json para serem carregados no nosso sistema. Através do python, fiz o mapeamento do formato dos dois arquivos, tratando e unindo todas as informações em um único formato padrão recinhecido pelo nosso sistema.
-
-<h3><b> Django </b></h3>
-
-Novamente utilizei o django para realizar a integração entre backend e frontend, fazendo a transferência de informações e renderização de conteúdos na tela.
-
-<h3><b> HTML, CSS e Bootstrap </b></h3>
-
-Para esse projeto, continuei utilizando as mesmas tecnologias para a criação da base e estilização dos conteúdos, porém com um controle maior da estilização, uma vez que já possuia uma noção melhor do funcionamento das tecnologias, visto que já havia utilizado cada uma delas no semestre anterior.
-
-<h3><b> JavaScript e Charts JS</b></h3>
-
-Por estar focado na parte do front-end, fez-se necessário o uso de uma nova linguagem de programação para dar mais interatividade ao sistema e torna-lo mais atrativo ao usuário. Através do JavaScript e com o auxílio da biblioteca Charts JS, gerei gráficos com os valores enviados pelo back-end e que dariam sentido ao nosso sistema, validando nossa entrega.
+- <b>Python: </b>Linguagem de programação utilizada para tratar os dados e aplicar um padrão no qual a aplicação foi configurada para aceitar
+- <b>Django: </b> Framework web, no qual o projeto foi feito
+- <b>Figma: </b> Plataforma utilizada para criar o wireframe do sistema
+- <b>HTML: </b> Linguagem de marcação na qual foi criada a estrutura das páginas
+- <b>CSS: </b> Utilizado para fazer a estilização necessária em cada elemento
+- <b>Bootstrap: </b> Biblioteca CSS utilizada para criar mais facilmente alguns componentes da aplicação
+- <b>Javascript: </b> Utilizado para recolher os dados vindos do back-end e mostrá-los ao usuário
+- <b>Charts JS: </b> Biblioteca utilizada para a geração de gráficos do dashboard
 
 <h3><b> Contribuições pessoais </b></h3>
 
@@ -157,21 +138,35 @@ Ao longo do projeto auxiliei tanto os desenvolvedores da parte do front-end quan
 - Registro dos dados e criação dos gráficos interativos
   - A criação dos gráficos foi o foco principal do projeto, e através do JavaScript, consegui recolher as informações vindas do backend, e colocá-las na tela, permitindo ao usuário uma visualização bem mais facilitada dos dados.
 
-<h3><b> Aprendizados Efetivos </b></h3>
+<h3 align="center"><b> APRENDIZADOS EFETIVOS </b></h3>
 
-Nesse segundo projeto consegui estar em mais contato não só com front-end, mas também com o backend, o que me possibilitou desenvolver os seguintes quesitos:
+<h3>Hard Skills</h3>
 
-- <h3>Trabalho em equipe</h3>
-    Atuando nas duas frentes do projeto, sendo o front-end e o back-end, acabei desenvolvendo melhor minha forma de trabalhar em equipe. Ao fornecer auxílio, precisei aprimorar meu lado empático e procurar entender as dificuldades de cada um, para que pudesse ajudar da melhor forma e assim conseguirmos finalizar as tarefas dentro do prazo estipulado.
+<h4><b> Python ★★★☆☆</b></h4>
 
-- <h3>Gestão de tempo</h3>
-    Além de prestar auxílio aos meus colegas também fiz minhas próprias tasks, o que me forçou de modo positivo a gerir melhor meu tempo. Separava horários específicos em que estaria livre para ajudar e que estaria focado no que eu havia me comprometido em entregar.
+Durante esse projeto, o Python se fez útil para o tratamento das informações recebidas. A empresa parceira me disponibilizou dois arquivos do tipo json para serem carregados no nosso sistema. Através do python, fiz o mapeamento do formato dos dois arquivos, tratando e unindo todas as informações em um único formato padrão recinhecido pelo nosso sistema.
 
-- <h3>Bibliotecas</h3>
-    O uso de bibliotecas foi algo novo nesse semestre. Com essa tecnologia não precisei criar tudo do zero. Para cada objetivo tive acesso a diversas bibliotecas, onde foi preciso apenas importá-las e seguir a documentação de como usá-las.
-    A biblioteca utilizada foi o Charts JS para composição dos gráficos interativos, que foram foco do nosso projeto.
+<h4><b> HTML, CSS e Bootstrap ★★★☆☆</b></h4>
 
+Para esse projeto, continuei utilizando as mesmas tecnologias para a criação da base e estilização dos conteúdos, porém com um controle maior da estilização, uma vez que já possuia uma noção melhor do funcionamento das tecnologias, visto que já havia utilizado cada uma delas no semestre anterior.
 
+<h4><b> JavaScript e Charts JS ★★☆☆☆</b></h4>
+
+Por estar focado na parte do front-end, fez-se necessário o uso de uma nova linguagem de programação para dar mais interatividade ao sistema e torna-lo mais atrativo ao usuário. Através do JavaScript e com o auxílio da biblioteca Charts JS, gerei gráficos com os valores enviados pelo back-end e que dariam sentido ao nosso sistema, validando a entrega.
+
+<h4>Bibliotecas ★★★☆☆</h4>
+O uso de bibliotecas foi algo novo nesse semestre. Com essa tecnologia não precisei criar tudo do zero. Para cada objetivo tive acesso a diversas bibliotecas, onde foi preciso apenas importá-las e seguir a documentação de como usá-las.
+A biblioteca utilizada foi o Charts JS para composição dos gráficos interativos, que foram foco do nosso projeto.
+
+<h3>Soft Skills</h3>
+
+<h4>Trabalho em equipe ★★★☆☆</h4>
+Atuando nas duas frentes do projeto, sendo o front-end e o back-end, acabei desenvolvendo melhor minha forma de trabalhar em equipe. Ao fornecer auxílio, precisei aprimorar meu lado empático e procurar entender as dificuldades de cada um, para que pudesse ajudar da melhor forma e assim conseguirmos finalizar as tarefas dentro do prazo estipulado.
+
+<h4>Gestão de tempo ★★★☆☆</h4>
+Além de prestar auxílio aos meus colegas também fiz minhas próprias tasks, o que me forçou de modo positivo a gerir melhor meu tempo. Separava horários específicos em que estaria livre para ajudar e que estaria focado no que eu havia me comprometido em entregar. 
+
+---
 ---
 
 <h2 id="projeto3" align="center"><b><a href="https://github.com/Time-1-ADS/PROJETO-NESS" style="color: inherit; cursor: pointer;">Projeto 3: CRM</a> 🔗</b></h2>
@@ -194,22 +189,14 @@ Esse projeto teve como objetivo realizar a criação de um CRM (Custom Relations
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- Python
-- Flask
-- Figma
-- HTML
-- CSS
-- Javascript
-- Charts JS
+- <b>Flask: </b> Framework baseado em python, no qual foi desenvolvido o back-end
+- <b>HTML: </b> Linguagem de marcação utilizada para estruturar as páginas
+- <b>CSS: </b> Linguagem utilizada para a estilização do sistema
+- <b>JavaScript: </b> Através do JavaScript foram criadas as funções responsáveis pelo funcionamento do front-end
+- <b>Charts JS: </b> Foi usado a biblioteca Charts JS para a criação dos gráficos existentes na aplicação
+- <b>Figma: </b> Plataforma na qual foi gerado o wireframe do sistema
 
-<h3><b> Python e Flask </b></h3>
 
-Novamente desenvolvi o backend desenvolvido em Python, mas dessa vez utilizando o framework Flask, que em algumas pesquisas se mostrou mais adequado às necessidades do nosso projeto
-
-<h3><b> HTML, CSS, JavaScript e Charts JS </b></h3>
-
-Diferente dos outros semestres, dessa vez não foi utilizado o bootstrap. Como já estava no terceiro semestre e possuia um conhecimento maior das tecnologias, decidi me dedicar para entender de forma mais aprofundada sobre as tags HTML e os atributos do CSS. No início foi um pouco complicado, mas ao longo do desenvolvimento, senti mais facilidade e descobri que conseguiria ter um controle muito maior do meu sistema e do seu visual, ao fazer a estilização sem a ajuda de um framework, me aproximando muito mais do nosso wireframe produzido no Figma.<br>
-A utilização do JavaScript e do Charts JS para recolhimento das informações também aconteceu de uma forma mais simples, por conta da experiência adquirida no semestre anterior.
 
 <h3><b> Contribuições pessoais </b></h3>
 
@@ -221,14 +208,27 @@ Nesse projeto busquei entender de forma mais aprofundada as tecnologias utilizad
 - Registro dos dados e criação dos gráficos interativos
   - Através do JavaScript, unido também ao backend, criei funções de criação de usuários e tickets no kanban que impactavam diretamente na visualização dos gráficos na tela de dashboard.
 
-<h3><b> Aprendizados Efetivos </b></h3>
+<h3 align="center"><b> APRENDIZADOS EFETIVOS </b></h3>
 
-- <h3>Front end</h3>
-    Como meu foco maior nesse semestre foi entender de forma mais aprofundada o funcionamento das linguagens utilizadas no frontend, pude compreender melhor o funcionamento, para que serve e em qual momento deveria utilizá-las. O entendimento dos atributos CSS foi o que mais impactou minha forma de desenvolver, pois a partir daí comecei a ser capaz de entregar como resultado, aquilo que estava planejado em nosso wireframe. Esse conhecimento foi muito útil não só para o projeto, mas também me possibilitou consequir um emprego na área, ao final do semestre, como desenvolvedor frontend em uma empresa multi-nacional, a Johnson & Johnson.
+<h3>Hard Skills</h3>
 
-- <h3>Gestão de pessoas</h3>
-    Como já tinha um conhecimento mais elevado do frontend, me encarreguei de organizar os outros desenvolvedores do time que atuariam no frontend, passando algumas tasks que faziam sentido em cada momento, tirando também dúvidas e servindo de apoio para cada um deles, quando necessário
+<h4><b> HTML, CSS ★★★★☆</b></h4>
 
+Diferente dos outros semestres, dessa vez não foi utilizado o bootstrap. Como já estava no terceiro semestre e possuia um conhecimento maior das tecnologias, decidi me dedicar para entender de forma mais aprofundada sobre as tags HTML e os atributos do CSS. No início foi um pouco complicado, mas ao longo do desenvolvimento, senti mais facilidade e descobri que conseguiria ter um controle muito maior do meu sistema e do seu visual, ao fazer a estilização sem a ajuda de um framework, me aproximando muito mais do nosso wireframe produzido no Figma.<br>
+
+<h4><b> JavaScript e Charts JS ★★★☆☆</b></h4>
+
+Devido a experiência anterior com ambas as tecnologias, durante o desenvolvimento desse projeto, consegue trabalhar de forma muito mais fácil, tanto com o JavaScript, para criar as funções necessárias, quanto com o Charts JS, para a geração dos gráficos.
+
+<h4>Front-end ★★★★☆</h4>
+Como meu foco maior nesse semestre foi entender de forma mais aprofundada o funcionamento das linguagens utilizadas no frontend, pude compreender melhor o funcionamento, para que serve e em qual momento deveria utilizá-las. O entendimento dos atributos CSS foi o que mais impactou minha forma de desenvolver, pois a partir daí comecei a ser capaz de entregar como resultado, aquilo que estava planejado em nosso wireframe. Esse conhecimento foi muito útil não só para o projeto, mas também me possibilitou consequir um emprego na área, ao final do semestre, como desenvolvedor front-end em uma empresa multi-nacional, a Johnson & Johnson.
+
+<h3>Soft Skills</h3>
+
+<h4>Gestão de pessoas ★★★★☆</h4>
+Como já tinha um conhecimento mais elevado do frontend, me encarreguei de organizar os outros desenvolvedores do time que atuariam no frontend, passando algumas tasks que faziam sentido em cada momento, tirando também dúvidas e servindo de apoio para cada um deles, quando necessário
+
+---
 ---
 
 <h2 id="projeto4" align="center"><b><a href="https://github.com/PhatomFatec/API_SUBITER" style="color: inherit; cursor: pointer;">Projeto 4: Subiter</a> 🔗</b></h2>
@@ -269,26 +269,22 @@ Trabalhei no desenvolvimento das páginas que constituiam o sistema, a configura
 
 <h3><b> Hard Skills </b></h3>
 
-<h3><b> Vue JS </b></h3>
+<h3><b> Vue JS ★★★★☆ </b></h3>
 
 Utilizei o Vue JS para a criação das páginas do sistema, assim também como cada componente utilizado. Através do framework, fiz a configuração das rotas e a implementação das funcionalidades, através das quais o usuário iria interagir com a aplicação. Fiz também as requisições necessárias para que todo o conteúdo fosse dinâmico.
 
-<h3><b> Sass </b></h3>
+<h3><b> Sass ★★★★★ </b></h3>
 
 Utilizei a biblioteca Sass do CSS para criar de forma mais fácil e organizada os estilos necessários para dar vida ao sistema. Através dela, pude escrever o código CSS em formato de cascata, que depois era compilado e gerava o CSS em seu formato padrão. O benefício do uso dessa tecnologia foi a escrita de um código mais enxuto e com uma manutenção mais simples.
 
-<h3><b> Aprendizados Efetivos </b></h3>
+<h3>Adaptação ★★★★☆</h3>
+Utilizar uma tecnologia nova como o Vue JS foi complexo no começo, pois em muitos momentos eu tentava utilizar a sintaxe do Java Script Vanilla de forma automática. Precisei aos poucos adaptar meu modo de pensar e de estruturar os códigos, e ao final consegui um bom resultado e um aprendizado muito grande com o framework, que funcionou muito bem para a proposta da nossa aplicação
 
-Já tendo um conhecimento bem maior sobre o desenvolvimento do front-end "puro", sem uso de bibliotecas ou frameworks, utilizar o Vue JS no início foi um pouco complexo, mas ao entender a sintaxe facilitou muito o trabalho, permitindo que me desenvolvesse nos seguintes pontos:
+<h3>Frameworks ★★★★☆</h3>
+Por ser a primeira vez em que tive contato com um framework front-end, foi bem complexo me adaptar ao modo de criação com a nova tecnologia. Mas consegui entender bem o propósito e como deveria utilizá-lo, aplicando também algumas boas práticas à estrutura do sistema.
 
-- <h3>Adaptação</h3>
-    Utilizar uma tecnologia nova como o Vue JS foi complexo no começo, pois em muitos momentos eu tentava utilizar a sintaxe do Java Script Vanilla de forma automática. Precisei aos poucos adaptar meu modo de pensar e de estruturar os códigos, e ao final consegui um bom resultado e um aprendizado muito grande com o framework, que funcionou muito bem para a proposta da nossa aplicação
-
-- <h3>Organização</h3>
-    Por estar no cargo de scrum master e de desenvolvedor, precisei organizar melhor tanto minhas atividades quanto a do resto da equipe, o que foi um desafio muito grande mas que consegui superar ao longo das sprints.
-
-- <h3>Frameworks</h3>
-    Por ser a primeira vez em que tive contato com um framework front-end, foi bem complexo me adaptar ao modo de criação com a nova tecnologia. Mas consegui entender bem o propósito e como deveria utilizá-lo, aplicando também algumas boas práticas à estrutura do sistema.
+<h3>Organização ★★★☆☆</h3>
+Por estar no cargo de scrum master e de desenvolvedor, precisei organizar melhor tanto minhas atividades quanto a do resto da equipe, o que foi um desafio muito grande mas que consegui superar ao longo das sprints.
 
 ---
 
