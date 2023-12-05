@@ -110,7 +110,7 @@ O projeto teve como objetivo realizar a criação de um dashboard, que consumiri
 <img src="./images/P2_I2.png">
 <figcaption style="font-size: smaller;">Lista de colaboradores, email de contato e quantidade de tasks abertas e fechadas de cada um.</p>
 <img src="./images/P2_I3.png">
-<figcaption style="font-size: smaller;">Tabela de horas gastas por cada funcionário e hanking de produtividade</p>
+<figcaption style="font-size: smaller;">Tabela de horas gastas por cada funcionário e hanking de produtividade.</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
@@ -237,12 +237,12 @@ Este projeto teve como proposta o desenvolvimento de sistema no qual o usuário 
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
-<img src="./images/P3_I2.jpg">
-<figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/P3_I1.jpg">
-<figcaption style="font-size: smaller;">Tela de contatos</p>
-<img src="./images/P3_I3.png">
-<figcaption style="font-size: smaller;">Tela de dashboard</p>
+<img src="./images/Login-subiter.png">
+<figcaption style="font-size: smaller;">Página de login do sistema.</p>
+<img src="./images/Home%20-%20Chamados.png">
+<figcaption style="font-size: smaller;">Página principal com seleção da aba de chamados, mas com o mesmo padrão de tabela existente nas demais áreas do menu.</p>
+<img src="./images/Modal%20-%20Chamados%20%5BAções%5D.png">
+<figcaption style="font-size: smaller;">Pop-up com formulário de criação de novo chamado.</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
@@ -304,11 +304,11 @@ Este projeto teve como objetivo a criação de um sistema de transferência de a
 <img src="./images/Group%20847.png">
 <figcaption style="font-size: smaller;">Segunda etapa da configuração, onde é requirido informações de segurança da conexão.</p>
 <img src="./images/Configurações%20(1).png">
-<figcaption style="font-size: smaller;">Terceira estapa da configuração, onde o usuário pode escolher o fluxo da transferência</p>
+<figcaption style="font-size: smaller;">Terceira estapa da configuração, onde o usuário pode escolher o fluxo da transferência.</p>
 <img src="./images/Configurações%20(2).png">
-<figcaption style="font-size: smaller;">Última etapa da configuração, permite ao usuário selecionar o caminho da pasta onde será feito a transferência, e o tempo entre cada verificação para transferir automaticamente</p>
+<figcaption style="font-size: smaller;">Última etapa da configuração, permite ao usuário selecionar o caminho da pasta onde será feito a transferência, e o tempo entre cada verificação para transferir automaticamente.</p>
 <img src="./images/Histórico.png">
-<figcaption style="font-size: smaller;">Página de histórico das transações feitas através do sistema</p>
+<figcaption style="font-size: smaller;">Página de histórico das transações feitas através do sistema.</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
@@ -358,11 +358,11 @@ Em relação aos requisitos da aplicação, foi preciso viabilizar a visualizaç
 <img src="./images/P6_I1.png">
 <figcaption style="font-size: smaller;">Página de login, para onde o usuário é redirecionado, se identificado que ele ainda não entrou no sistema.</p>
 <img src="./images/P6_I2.png">
-<figcaption style="font-size: smaller;">Página de cadastro contendo campos com validação de valores, para evitar erros durante a submissão do formulário</p>
+<figcaption style="font-size: smaller;">Página de cadastro contendo campos com validação de valores, para evitar erros durante a submissão do formulário.</p>
 <img src="./images/P6_I3.png">
 <figcaption style="font-size: smaller;">Página inicial do sistema, onde o usuário pode fazer consultas utilizando os filtros que considerar mais importantes naquele momento.</p>
 <img src="./images/P6_I4.png">
-<figcaption style="font-size: smaller;">Exemplo de pesquisa feita pelo usuário, com identificação da gleba e exposição de suas informações</p>
+<figcaption style="font-size: smaller;">Exemplo de pesquisa feita pelo usuário, com identificação da gleba e exposição de suas informações.</p>
 <img src="./images/P6_I5.png">
 <figcaption style="font-size: smaller;">Notificação pop up aparecendo no canto superior direito, confirmando que o usuário desativou as notificações por e-mail, clicando no botão do canto inferior esquerdo.</p>
 <img src="./images/P6_I6.png">
