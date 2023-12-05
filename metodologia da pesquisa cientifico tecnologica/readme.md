@@ -287,7 +287,7 @@ Por estar no cargo de scrum master e de desenvolvedor, precisei organizar melhor
 
 <h2 id="projeto5" align="center"><b><a href="https://github.com/PhatomFatec/Midall-DataTransfer" style="color: inherit; cursor: pointer;">Projeto 5: Data Transfer</a> 🔗</b></h2>
 
-<p align="center">Projeto Integrador - 6° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Visiona</p>
+<p align="center">Projeto Integrador - 5° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Midall</p>
 
 <h3><b> Visão do Projeto </b></h3>
 
