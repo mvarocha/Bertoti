@@ -48,11 +48,11 @@ O objetivo do projeto consistiu em realizar a criação de um e-commerce para ve
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- <b>Python:</b> Linguagem na qual foi desenvolvida o back-end
-- <b>Figma:</b> Plataforma utilizada para criar os wireframes do sistema
-- <b>HTML:</b> Linguagem de marcação através da qual foi construída a estrutura das páginas
-- <b>CSS:</b> Utilizado para estilizar as páginas e seus elementos
-- <b>Bootstrap:</b> Utilizado para auxiliar no desenvolvimento do front-end de forma mais facilitada
+- <b>Python:</b> Linguagem na qual foi desenvolvida o back-end.
+- <b>Figma:</b> Plataforma utilizada para criar os wireframes do sistema.
+- <b>HTML:</b> Linguagem de marcação através da qual foi construída a estrutura das páginas.
+- <b>CSS:</b> Utilizado para estilizar as páginas e seus elementos.
+- <b>Bootstrap:</b> Utilizado para auxiliar no desenvolvimento do front-end de forma mais facilitada.
 
 <h3><b> Contribuições pessoais </b></h3>
 
@@ -119,14 +119,14 @@ O projeto teve como objetivo realizar a criação de um dashboard, que consumiri
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- <b>Python: </b>Linguagem de programação utilizada para tratar os dados e aplicar um padrão no qual a aplicação foi configurada para aceitar
-- <b>Django: </b> Framework web, no qual o projeto foi feito
-- <b>Figma: </b> Plataforma utilizada para criar o wireframe do sistema
-- <b>HTML: </b> Linguagem de marcação na qual foi criada a estrutura das páginas
-- <b>CSS: </b> Utilizado para fazer a estilização necessária em cada elemento
-- <b>Bootstrap: </b> Biblioteca CSS utilizada para criar mais facilmente alguns componentes da aplicação
-- <b>Javascript: </b> Utilizado para recolher os dados vindos do back-end e mostrá-los ao usuário
-- <b>Charts JS: </b> Biblioteca utilizada para a geração de gráficos do dashboard
+- <b>Python: </b>Linguagem de programação utilizada para tratar os dados e aplicar um padrão no qual a aplicação foi configurada para aceitar.
+- <b>Django: </b> Framework web, no qual o projeto foi feito.
+- <b>Figma: </b> Plataforma utilizada para criar o wireframe do sistema.
+- <b>HTML: </b> Linguagem de marcação na qual foi criada a estrutura das páginas.
+- <b>CSS: </b> Utilizado para fazer a estilização necessária em cada elemento.
+- <b>Bootstrap: </b> Biblioteca CSS utilizada para criar mais facilmente alguns componentes da aplicação.
+- <b>Javascript: </b> Utilizado para recolher os dados vindos do back-end e mostrá-los ao usuário.
+- <b>Charts JS: </b> Biblioteca utilizada para a geração de gráficos do dashboard.
 
 <h3><b> Contribuições pessoais </b></h3>
 
@@ -189,12 +189,12 @@ Esse projeto teve como objetivo realizar a criação de um CRM (Custom Relations
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- <b>Flask: </b> Framework baseado em python, no qual foi desenvolvido o back-end
-- <b>HTML: </b> Linguagem de marcação utilizada para estruturar as páginas
-- <b>CSS: </b> Linguagem utilizada para a estilização do sistema
-- <b>JavaScript: </b> Através do JavaScript foram criadas as funções responsáveis pelo funcionamento do front-end
-- <b>Charts JS: </b> Foi usado a biblioteca Charts JS para a criação dos gráficos existentes na aplicação
-- <b>Figma: </b> Plataforma na qual foi gerado o wireframe do sistema
+- <b>Flask: </b> Framework baseado em python, no qual foi desenvolvido o back-end.
+- <b>HTML: </b> Linguagem de marcação utilizada para estruturar as páginas.
+- <b>CSS: </b> Linguagem utilizada para a estilização do sistema.
+- <b>JavaScript: </b> Através do JavaScript foram criadas as funções responsáveis pelo funcionamento do front-end.
+- <b>Charts JS: </b> Foi usado a biblioteca Charts JS para a criação dos gráficos existentes na aplicação.
+- <b>Figma: </b> Plataforma na qual foi gerado o wireframe do sistema.
 
 
 
@@ -254,6 +254,7 @@ Este projeto teve como proposta o desenvolvimento de sistema no qual o usuário 
 - <b>Vue JS:</b> Framework no qual foram construidas as páginas e os componentes do sistema.
 - <b>Sass:</b> Biblioteca CSS utilizada para facilitar a escrita e organização dos estilos das páginas e de seus componentes.
 - <b>Figma:</b> Plataforma utilizada para elaboração do wireframe.
+- <b>Spring Boot:</b> Utilizado para o desenvolvimento do back-end.
 
 <h3><b> Contribuições pessoais </b></h3>
 
@@ -314,12 +315,13 @@ Este projeto teve como objetivo a criação de um sistema de transferência de a
 
 <h3><b> Tecnologias utilizadas </b></h3>
 
-- HTML: Criação da estrutura das páginas e conteúdos
-- CSS: Estilização das páginas e seus respectivos elementos 
-- JavaScript: Utilizado para dar dinamicidade ao sistema, através de funções e requisições
-- Jest: Utilizado para realizar testes unitários das funções criadas no JavaScript
-- Bootstrap: Biblioteca utilizada para gerar a tabela de registro de transferência de arquivos realizadas através do sistema
-- Figma: Elaboração do wireframe
+- <b>HTML:</b> Criação da estrutura das páginas e conteúdos.
+- <b>CSS:</b> Estilização das páginas e seus respectivos elementos.
+- <b>JavaScript:</b> Utilizado para dar dinamicidade ao sistema, através de funções e requisições.
+- <b>Jest:</b> Utilizado para realizar testes unitários das funções criadas no JavaScript.
+- <b>Bootstrap:</b> Biblioteca utilizada para gerar a tabela de registro de transferência de arquivos realizadas através do sistema.
+- <b>Figma:</b> Elaboração do wireframe.
+- <b>Spring Boot:</b> Utilizado para o desenvolvimento do back-end.
 
 <h3><b> Contribuições pessoais </b></h3>
 Realizei a criação das páginas através do HTML, a estilização com CSS e as funções de interatividade do sistema com JavaScript. Com o Bootstrap gerei uma tabela onde era possível filtrar os dados exibidos, e que se relacionavam às transferências feitas através da aplicação.
@@ -372,10 +374,12 @@ Em relação aos requisitos da aplicação, foi preciso viabilizar a visualizaç
 <h3><b> Tecnologias utilizadas </b></h3>
 
 - <b>Next JS:</b> O framework baseado em React JS foi utilizado para criação das páginas e componentes de maneira mais facilitada.
-- <b>Tailwind</b>: Utilizei o framework CSS para elaboração do design, de forma mais descomplicada e direta, através de classes passadas para cada elemento
-- <b>Leaflet</b>: Biblioteca do React JS que possibilitou a geração do mapa interativo dentro do sistema
+- <b>Tailwind:</b> Utilizei o framework CSS para elaboração do design, de forma mais descomplicada e direta, através de classes passadas para cada elemento.
+- <b>Leaflet</b>: Biblioteca do React JS que possibilitou a geração do mapa interativo dentro do sistema.
 - <b>REGEX</b>: Expressão utilizada para validar os campos de nome, e-mail e senha durante o cadastro do usuário.
-- <b>Figma</b>: Utilizado para a elaboração dos wireframes
+- <b>Figma:</b> Utilizado para a elaboração dos wireframes.
+- <b>Flask:</b> Framework baseado em python, utilizado para a criação do back-end.
+- <b>Mongo DB:</b> Bqnco de dados não relacional utilizado na aplicação.
 
 <h3><b> Contribuições pessoais </b></h3>
 
