@@ -34,12 +34,12 @@ O objetivo do projeto consistiu em realizar a criação de um e-commerce para ve
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
+<img src="./images/P1_I1.jpg">
+<figcaption style="font-size: smaller;">Página inicial do sistema, onde o usuário pode consultar  produtos, fazer pesquisa, acessar sua conta ou criar uma.</p>
 <img src="./images/P1_I2.jpg">
-<figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/P1_I2.jpg">
-<figcaption style="font-size: smaller;">Parte inferior da homepage - Conteúdos e rodapé</p>
+<figcaption style="font-size: smaller;">Parte inferior da página inicial, contendo os materiais disponíveis para compra.</p>
 <img src="./images/P1_I3.jpg">
-<figcaption style="font-size: smaller;">Página de conteúdo específico</p>
+<figcaption style="font-size: smaller;">Página de conteúdo específico, onde o usuário consegue ter uma visualização mais detalhada sobre o que se trata aquele material.</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
@@ -106,11 +106,11 @@ O projeto teve como objetivo realizar a criação de um dashboard, que consumiri
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
 <img src="./images/P2_I1.png">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Página inicial do sistema, com os gráficos referentes às métricas obtidas do Jira e do Trello.</p>
 <img src="./images/P2_I2.png">
-<figcaption style="font-size: smaller;">Tela de colaboradores</p>
+<figcaption style="font-size: smaller;">Lista de colaboradores, email de contato e quantidade de tasks abertas e fechadas de cada um.</p>
 <img src="./images/P2_I3.png">
-<figcaption style="font-size: smaller;">Ranking de tasks fechadas</p>
+<figcaption style="font-size: smaller;">Tabela de horas gastas por cada funcionário e hanking de produtividade</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
@@ -176,11 +176,11 @@ Esse projeto teve como objetivo realizar a criação de um CRM (Custom Relations
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
 <img src="./images/P3_I2.jpg">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Página inicial do sistema, com Kanban para controle de atividades da empresa.</p>
 <img src="./images/P3_I1.jpg">
-<figcaption style="font-size: smaller;">Tela de contatos</p>
+<figcaption style="font-size: smaller;">Página de contato com informações dos clientes.</p>
 <img src="./images/P3_I3.png">
-<figcaption style="font-size: smaller;">Tela de dashboard</p>
+<figcaption style="font-size: smaller;">Página de dashboard com métricas referentes aos atendimentos.</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
@@ -354,7 +354,7 @@ Em relação aos requisitos da aplicação, foi preciso viabilizar a visualizaç
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
 <img src="./images/P6_I2.jpg">
-<figcaption style="font-size: smaller;">Login</p>
+<figcaption style="font-size: smaller;">Página inicial do sistema, onde o usuário pode fazer consultas utilizando os filtros que considerar mais importantes naquele momento.</p>
 <img src="./images/P6_I1.jpg">
 <figcaption style="font-size: smaller;">Cadastro</p>
 <img src="./images/P6_I3.png">
