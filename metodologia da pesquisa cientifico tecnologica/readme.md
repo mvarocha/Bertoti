@@ -8,11 +8,7 @@ Fora do ambiente estudantil e profissional, meus interesses são mais voltados p
 
 <h3> Principais Conhecimentos </h3>
 
-<b>JavaScript</b>
-
-Em 2020 tive meu primeiro contato com a linguagem, através da necessiade gerada durante a execução do primeiro projeto de API na FATEC.
-A cada semestre, foquei em melhorar minhas habilidades com o front-end, o que me permitiu conquistar um trabalho nessa área e me desenvolver cada vez mais.
-Hoje também possuo conhecimento em alguns frameworks como Bootstrap, Vue JS e React JS.
+Meus conhecimentos principais giram em torno da área do front-end, na qual sou apaixonado e trabalho atualmente. JavaScript é a minha linguagem de programação preferida, e com ela consigo utilizar facilmente frameworks como Vue JS e Next JS, que fizeram parte do desenvolvimento de alguns dos projetos que apresentarei a seguir. Não sou designer, mas com as minhas habilidades, consigo dar vida a aplicação. Para a estilização, sei muito bem como utilizar o CSS e algumas bibliotecas da linguagem, como Sass, Bootstrap e Tailwind.
 
 ---
 ---
