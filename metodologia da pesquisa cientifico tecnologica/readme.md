@@ -353,18 +353,18 @@ Em relação aos requisitos da aplicação, foi preciso viabilizar a visualizaç
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
-<img src="./images/P6_I2.jpg">
-<figcaption style="font-size: smaller;">Página inicial do sistema, onde o usuário pode fazer consultas utilizando os filtros que considerar mais importantes naquele momento.</p>
-<img src="./images/P6_I1.jpg">
-<figcaption style="font-size: smaller;">Cadastro</p>
+<img src="./images/P6_I1.png">
+<figcaption style="font-size: smaller;">Página de login, para onde o usuário é redirecionado, se identificado que ele ainda não entrou no sistema.</p>
+<img src="./images/P6_I2.png">
+<figcaption style="font-size: smaller;">Página de cadastro contendo campos com validação de valores, para evitar erros durante a submissão do formulário</p>
 <img src="./images/P6_I3.png">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Página inicial do sistema, onde o usuário pode fazer consultas utilizando os filtros que considerar mais importantes naquele momento.</p>
 <img src="./images/P6_I4.png">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Exemplo de pesquisa feita pelo usuário, com identificação da gleba e exposição de suas informações</p>
 <img src="./images/P6_I5.png">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Notificação pop up aparecendo no canto superior direito, confirmando que o usuário desativou as notificações por e-mail, clicando no botão do canto inferior esquerdo.</p>
 <img src="./images/P6_I6.png">
-<figcaption style="font-size: smaller;">Atualização dos termos</p>
+<figcaption style="font-size: smaller;">Página de atualização dos termos e condições do sistema. O usuário é redirecionado para essa página apenas quando há alguma alteração do termo.</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
