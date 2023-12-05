@@ -229,7 +229,7 @@ Como já tinha um conhecimento mais elevado do frontend, me encarreguei de organ
 
 <h2 id="projeto4" align="center"><b><a href="https://github.com/PhatomFatec/API_SUBITER" style="color: inherit; cursor: pointer;">Projeto 4: Subiter</a> 🔗</b></h2>
 
-<p align="center">Projeto Integrador - 4° Semestre | Fatec Prof. Jessen Vidal - 2021 | Cliente parceiro: Subiter</p>
+<p align="center">Projeto Integrador - 4° Semestre | Fatec Prof. Jessen Vidal - 2022 | Cliente parceiro: Subiter</p>
 
 <h3><b> Visão do Projeto </b></h3>
 
