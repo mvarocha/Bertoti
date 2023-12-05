@@ -296,19 +296,19 @@ Este projeto teve como objetivo a criação de um sistema de transferência de a
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
 <img src="./images/Login.png">
-<figcaption style="font-size: smaller;">Login</p>
+<figcaption style="font-size: smaller;">Página de login do sistema.</p>
 <img src="./images/Dashboard.png">
-<figcaption style="font-size: smaller;">Cadastro</p>
+<figcaption style="font-size: smaller;">Página de dashboard com métricas das transações feitas através da aplicação.</p>
 <img src="./images/Configurações.png">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Primeira etapa das configurações das transações, onde o usuário escolhe em qual plataforma deseja realizar a transferência.</p>
 <img src="./images/Group%20847.png">
-<figcaption style="font-size: smaller;">Homepage</p>
+<figcaption style="font-size: smaller;">Segunda etapa da configuração, onde é requirido informações de segurança da conexão.</p>
 <img src="./images/Configurações%20(1).png">
-<figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/Configurações%20(2)">
-<figcaption style="font-size: smaller;">Atualização dos termos</p>
+<figcaption style="font-size: smaller;">Terceira estapa da configuração, onde o usuário pode escolher o fluxo da transferência</p>
+<img src="./images/Configurações%20(2).png">
+<figcaption style="font-size: smaller;">Última etapa da configuração, permite ao usuário selecionar o caminho da pasta onde será feito a transferência, e o tempo entre cada verificação para transferir automaticamente</p>
 <img src="./images/Histórico.png">
-<figcaption style="font-size: smaller;">Atualização dos termos</p>
+<figcaption style="font-size: smaller;">Página de histórico das transações feitas através do sistema</p>
 </details>
 
 <h3><b> Tecnologias utilizadas </b></h3>
