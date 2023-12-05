@@ -295,17 +295,19 @@ Este projeto teve como objetivo a criação de um sistema de transferência de a
 
 <details>
 <summary>IMAGENS DO SISTEMA</summary>
-<img src="./images/P6_I2.jpg">
+<img src="./images/Login.png">
 <figcaption style="font-size: smaller;">Login</p>
-<img src="./images/P6_I1.jpg">
+<img src="./images/Dashboard.png">
 <figcaption style="font-size: smaller;">Cadastro</p>
-<img src="./images/P6_I3.png">
+<img src="./images/Configurações.png">
 <figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/P6_I4.png">
+<img src="./images/Group%20847.png">
 <figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/P6_I5.png">
+<img src="./images/Configurações%20(1).png">
 <figcaption style="font-size: smaller;">Homepage</p>
-<img src="./images/P6_I6.png">
+<img src="./images/Configurações%20(2)">
+<figcaption style="font-size: smaller;">Atualização dos termos</p>
+<img src="./images/Histórico.png">
 <figcaption style="font-size: smaller;">Atualização dos termos</p>
 </details>
 
