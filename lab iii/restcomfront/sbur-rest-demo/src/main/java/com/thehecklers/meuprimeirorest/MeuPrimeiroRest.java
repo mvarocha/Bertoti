@@ -7,9 +7,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.filter.CorsFilter;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -82,6 +86,33 @@ class RestApiDemoController {
     Aluno postAluno(@RequestBody Aluno aluno) {
         alunos.add(aluno);
         return aluno;
+    }
+
+    // @PostMapping("/upload")
+    // public ResponseEntity<String> uploadFile(@RequestParam("file") MultipartFile file) {
+        
+    //     return ResponseEntity.ok("Arquivo recebido com sucesso: " + file.getOriginalFilename());
+    // }
+
+    @PostMapping("/upload")
+    public ResponseEntity<Object> uploadFile(@RequestParam("file") MultipartFile file) {
+        if (file.isEmpty()) {
+            return ResponseEntity.badRequest().body("Arquivo não pode estar vazio");
+        }
+
+        try {
+            // List<String> lines = new ArrayList<>();
+            BufferedReader br = new BufferedReader(new InputStreamReader(file.getInputStream()));
+
+            String line = br.readLine();
+            // while ((line = br.readLine()) != null) {
+            //     lines.add(line);
+            // }
+
+            return ResponseEntity.ok().body(line);
+        } catch (IOException e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Falha ao processar o arquivo");
+        }
     }
 
     @PutMapping("/{id}")
